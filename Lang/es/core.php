@@ -590,5 +590,6 @@ return array(
     "alternative_description"   => "Descripción alternativa",
     "browse_image"              => "Buscar una imagen",
     "drop_image"                => "Soltar una imagen aquí",
+    "test"                      => "test",
 
 );
