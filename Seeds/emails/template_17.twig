@@ -1,0 +1,7 @@
+Se ha publicado un nuevo comentario en <a href="{{ comment.article.url(comment.type) }}">{{ comment.article.url(comment.type) }}</a><br>
+<br>
+<strong>Nombre:</strong> {{ comment.author.formatted_name }}<br>
+<strong>Comentario:</strong> {{ comment.purified_text|raw }}<br>
+<br>
+Si tu configuración requiere que los comentarios sean moderados antes de poder ser visibles, tendrás que aprobar este comentario. Puedes realizar cambios a este comentario, incluso moderarlo, haciendo clic en el enlace a continuación:<br>
+<a href="{{ comment.operator_edit_url }}">{{ comment.operator_edit_url }}</a>

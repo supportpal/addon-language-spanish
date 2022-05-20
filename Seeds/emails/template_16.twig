@@ -1,0 +1,14 @@
+Estimado/a {{ user.formatted_name }},<br>
+<br>
+Se te ha creado una cuenta en nuestro nuevo help desk de asistencia. Puedes encontrar la información de tu cuenta a continuación.<br>
+<br>
+<strong>Dirección de correo electrónico:</strong> {{ user.email }}<br>
+<strong>Contraseña:</strong> {{ password }}<br>
+<br>
+Puedes acceder al help desk haciendo clic en este enlace:<br>
+<a href="{{ helpdesk_url }}">{{ helpdesk_url }}</a><br>
+<br>
+Todos los tickets previos que tienes con nosotros han sido trasladados a nuestro nuevo sistema. Te recomendamos que inicies sesión y cambies tu contraseña lo antes posible.<br>
+<br>
+Atentamente,<br>
+<strong>{{ brand.name }}</strong>
