@@ -18,7 +18,7 @@ jobs:
 
       - name: Build Release
         run: |
-          ADDON_NAME=$(grep -rEho "^namespace Addons\\\\Languages\\\\([^\\\\]+)" Controllers/ | sed 's:.*\\::')
+          ADDON_NAME="$(grep -rEho "^namespace Addons\\\\Languages\\\\([^\\\\]+)" Controllers/ | sed 's:.*\\::')"
           git archive --format=tar --prefix="$(echo $ADDON_NAME)/" HEAD -o archive.tar
           tar -xf archive.tar
           rm -rf "$(echo $ADDON_NAME)"/.github/
