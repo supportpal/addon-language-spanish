@@ -10,20 +10,24 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      filename: addon-spanish-${{ github.ref_name }}.zip
+      filename: addon-spanish-${{ github.ref_name }}
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Build Release
-        uses: thedoctor0/zip-release@0.6.2
-        with:
-          type: 'zip'
-          filename: ${{ env.filename }}
-          exclusions: '*.git* /*node_modules/* .editorconfig'
+        run: |
+          ADDON_NAME=$(grep -rEho "^namespace Addons\\\\Languages\\\\([^\\\\]+)" Controllers/ | sed 's:.*\\::')
+          git archive --format=tar --prefix="$(echo $ADDON_NAME)/" HEAD -o archive.tar
+          tar -xf archive.tar
+          rm -rf "$(echo $ADDON_NAME)"/.github/
+          zip -r ${{ env.filename }}.zip "$ADDON_NAME"
+          tar -zcvf ${{ env.filename }}.tar.gz "$ADDON_NAME"'
 
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
-          files: ${{ env.filename }}
+          files: |
+            ${{ env.filename }}.zip
+            ${{ env.filename }}.tar.gz
