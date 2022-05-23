@@ -1,3 +1,12 @@
+#####################################################################################
+#                                   WARNING                                         #
+#####################################################################################
+#                                                                                   #
+# This file is synchronised across all supportpal/addon-language-* repositories.    #
+# Be careful not to hardcode any paths, and only update it in the                   #
+# supportpal/addon-language-english repository!                                     #
+#                                                                                   #
+#####################################################################################
 name: Release
 
 on:
@@ -9,25 +18,30 @@ jobs:
   release:
     runs-on: ubuntu-latest
 
-    env:
-      filename: addon-spanish-${{ github.ref_name }}
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Build Release
+      - name: Set environment
         run: |
           ADDON_NAME="$(grep -rEho "^namespace Addons\\\\Languages\\\\([^\\\\]+)" Controllers/ | sed 's:.*\\::')"
-          git archive --format=tar --prefix="$(echo $ADDON_NAME)/" HEAD -o archive.tar
+          ADDON_NAME_LOWER="$(echo $ADDON_NAME | awk '{print tolower($0)}')"
+          BASE_FILENAME="addon-$(echo $ADDON_NAME_LOWER)-${{ github.ref_name }}"
+          echo "ADDON_NAME=$(echo $ADDON_NAME)" >> $GITHUB_ENV
+          echo "ZIP_FILENAME=$(echo $BASE_FILENAME).zip" >> $GITHUB_ENV
+          echo "TAR_FILENAME=$(echo $BASE_FILENAME).tar.gz" >> $GITHUB_ENV
+
+      - name: Build Release
+        run: |
+          git archive --format=tar --prefix="${{ env.ADDON_NAME }}/" HEAD -o archive.tar
           tar -xf archive.tar
-          rm -rf "$(echo $ADDON_NAME)"/.github/
-          zip -r ${{ env.filename }}.zip "$ADDON_NAME"
-          tar -zcvf ${{ env.filename }}.tar.gz "$ADDON_NAME"
+          rm -rf ${{ env.ADDON_NAME }}/.github/
+          zip -r ${{ env.ZIP_FILENAME }} ${{ env.ADDON_NAME }}
+          tar -zcvf ${{ env.TAR_FILENAME }} ${{ env.ADDON_NAME }}
 
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
           files: |
-            ${{ env.filename }}.zip
-            ${{ env.filename }}.tar.gz
+            ${{ env.ZIP_FILENAME }}
+            ${{ env.TAR_FILENAME }}
