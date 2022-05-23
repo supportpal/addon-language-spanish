@@ -23,7 +23,7 @@ jobs:
           tar -xf archive.tar
           rm -rf "$(echo $ADDON_NAME)"/.github/
           zip -r ${{ env.filename }}.zip "$ADDON_NAME"
-          tar -zcvf ${{ env.filename }}.tar.gz "$ADDON_NAME"'
+          tar -zcvf ${{ env.filename }}.tar.gz "$ADDON_NAME"
 
       - name: Release
         uses: softprops/action-gh-release@v1
