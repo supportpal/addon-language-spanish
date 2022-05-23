@@ -1,3 +1,12 @@
+#####################################################################################
+#                                   WARNING                                         #
+#####################################################################################
+#                                                                                   #
+# This file is synchronised across all supportpal/addon-language-* repositories.    #
+# Be careful not to hardcode any paths, and only update it in the                   #
+# supportpal/addon-language-english repository!                                     #
+#                                                                                   #
+#####################################################################################
 name: test
 
 on:
@@ -24,7 +33,14 @@ jobs:
           path: .
           options: --exclude=vendor
 
+      - name: Set environment
+        run: |
+          LANG_PATH=$(find Lang -mindepth 1 -maxdepth 1 -type d -print -quit)
+          echo "LANG_PATH=$(echo $LANG_PATH)" >> $GITHUB_ENV
+          echo "LANG_NAME=$(basename $LANG_PATH)" >> $GITHUB_ENV 
+
       - name: Check out English
+        if: ${{ env.LANG_NAME != 'en' }}
         uses: actions/checkout@v3
         with:
           repository: supportpal/addon-language-english
@@ -32,5 +48,6 @@ jobs:
           ref: master
 
       - name: Code Quality
+        if: ${{ env.LANG_NAME != 'en' }}
         run: |
-          language-tools compare addon-language-english/Lang/en/ Lang/es
+          language-tools compare addon-language-english/Lang/en/ Lang/${{ env.LANG_NAME }}
