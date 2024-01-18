@@ -82,11 +82,6 @@ return array(
     "logo"                      => "El logo debe apuntar a un archivo de imagen válida (una URL directa o una ruta de acceso al directorio base relativa al archivo).",
 
     /*
-     * 2.1.1
-     */
-    "old_password"              => "El campo de :attribute es inválido.",
-
-    /*
      * 2.2.0
      */
     "required_with_translation" => "La traducción en :translation para el campo de :attribute es obligatoria cuando :values está presente.",
@@ -169,14 +164,21 @@ return array(
     "starts_with"               => "El/la :attribute debe comenzar con uno/a de los/las siguientes: :values.",
 
     /*
-     * 3.4.0
-     */
-    "password"                  => "La contraseña es incorrecta.",
-
-    /*
      * 3.5.0
      */
-    'phone'                     => "El número de teléfono proporcionado no es válido.",
+    "phone"                     => "El número de teléfono proporcionado no es válido.",
+
+    /*
+     * 4.3.0
+     */
+    "is_invalid"                => "The :attribute is invalid.",
+
+    /*
+     * 5.0.0
+     */
+    "current_password"           => "The password is incorrect.",
+    "department_email_per_brand" => "An email account must exist for each brand assigned to this department.",
+    "department_has_a_priority"  => "Department(s) :departments are public and must be assigned to at least one priority.",
 
     /*
     |--------------------------------------------------------------------------

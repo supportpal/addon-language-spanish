@@ -56,7 +56,6 @@ return array(
 
     // Report
     "report"            => "Ver informes",
-    "reportdashboard"   => "Ver panel",
 
     // General
     "tag"               => "Administrar etiquetas",
@@ -77,7 +76,6 @@ return array(
     // User
     "usercustomfield"   => "Administrar campos personalizados del usuario",
     "organisationcustomfield" => "Administrar campos personalizados de la organización",
-    "operatorsignature" => "Administrar firmas del operador",
 
     /*
      * 2.1.1
@@ -125,4 +123,18 @@ return array(
     "addon"             => "Ver y gestionar complementos",
     "system_health"     => "Ver el mantenimiento del sistema",
 
+    /*
+     * 4.2.0
+     */
+    "operatorreplytemplate" => "Manage Operator Reply Templates",
+
+    /*
+     * 5.0.0
+     */
+    "private_messaging" => "View Private Messages",
+
+    /*
+     * 5.1.0
+     */
+    "manage_report"     => "Manage Reports",
 );

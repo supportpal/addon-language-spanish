@@ -71,7 +71,6 @@ return array(
     "ticket_tag_removed"                => "Eliminó etiqueta :new_value del ticket #:rel.",
     "ticket_slaplan_updated"            => "Actualizó el plan SLA en el ticket #:rel de :old_value a :new_value.",
     "ticket_duetime_updated"            => "Actualizó la hora de entrega en el ticket #:rel a :new_value.",
-    "ticket_duetime_paused"             => "Pausó la hora de entrega en el ticket #:rel hasta la respuesta del siguiente usuario.",
     "ticket_customfield_updated"        => "Actualizó los campos personalizados en el ticket #:rel.",
     "ticket_converted_user"             => "Convirtió el ticket interno #:rel a ticket del usuario.",
     "ticket_converted_internal"         => "Convirtió el ticket del usuario #:rel a ticket interno.",
@@ -114,7 +113,6 @@ return array(
      */
     "ticket_brand_disabled_reply"       => "La respuesta puede que no se añada debido a que el ticket pertenece a una marca deshabilitada #:rel.",
     "personal_signatures_updated"       => "Actualizó las firmas personales.",
-    "operator_signatures_updated"       => "Actualizó las firmas de :rel.",
     "check_email_failed"                => "Error: Fallo al descargar correo de la cuenta :old_value: ':rel'.",
     "ticket_added_cc"                   => "Correo(s) :new_value añadidos a la lista de direcciones CC para el ticket #:rel.",
     "ticket_removed_cc"                 => "Correo(s) :old_value eliminados de la lista de direcciones CC para el ticket #:rel.",
@@ -132,7 +130,6 @@ return array(
     "ticket_macro_applied"              => "El macro ':new_value' se ejecutó en el ticket #:rel.",
     "ticket_macro_automatic"            => "El macro ':new_value' se ejecutó automáticamente en el ticket #:rel.",
     "email_template_not_found"          => "La plantilla de correo con ID ':new_value' no se ha podido encontrar, por lo que se ha cancelado el envío del correo.",
-    "ticket_duetime_unset"              => "Desactivó la hora de entrega en el ticket #:rel.",
     "private_conversation_started"      => "Empezó una conversación con :rel.",
     "private_message_sent"              => "Envió un mensaje a :rel.",
     "not_imported_replies_disabled"     => "Se recibió un correo :extra_rel1 para el ticket #:rel, pero no se importó ya que las respuestas de correo del ticket están desactivadas.",
@@ -166,8 +163,6 @@ return array(
     "email_send_failed"                 => "Error al enviar el correo.",
     "ticket_brand_updated"              => "Actualizó la marca del ticket #:rel de :old_value a :new_value.",
     "export_scheduled"                  => "Una exportación del usuario :rel ha sido programada.",
-    "export_generated"                  => "La exportación :new_value del usuario :rel se ha generado y ha sido almacenada en el sistema.",
-    "export_deleted"                    => "La exportación :old_value del usuario :rel se ha eliminado del sistema.",
     "deleted_inactive_records"          => "Se eliminó automáticamente :old_value :rel inactivo(s).",
     "deleted_old_records"               => "Se han eliminado automáticamente registros antiguos de :rel.",
     "sent_email_to_user_group"          => "Correo en cola para el grupo de usuarios ':new_value' para el ticket #:rel.",
@@ -202,5 +197,61 @@ return array(
      * 3.0.0
      */
     "selfservice_article_neutral"       => "Valorado neutral el artículo :rel.",
+
+    /*
+     * 4.1.0
+     */
+    "user_merged"                       => "User :old_value merged into user :rel.",
+    "user_organisation_merged"          => "User organisation :old_value merged into user organisation :rel.",
+
+    /*
+     * 4.2.0
+     */
+    "operator_reply_templates_updated"  => "Updated :rel's reply templates.",
+
+    /*
+     * 5.0.0
+     */
+    "addon_activated"                   => "Activated :item (add-on) :rel.",
+    "addon_deactivated"                 => "Deactivated :item (add-on) :rel.",
+    "addon_installed"                   => "Installed :item (add-on) :rel.",
+    "addon_uninstalled"                 => "Uninstalled :item (add-on) :rel.",
+    "addon_cancelled"                   => "Cancelled :item (add-on) :rel.",
+    "addon_updated"                     => "Updated :item (add-on) :rel to version :new_value.",
+    "ticket_reply_duetime_updated"      => "Updated the reply due time on ticket #:rel to :new_value.",
+    "ticket_resolve_duetime_updated"    => "Updated the resolve due time on ticket #:rel to :new_value.",
+    "ticket_duetime_unset"              => "Desactivó la hora de entrega en el ticket #:rel.",
+    "ticket_reply_duetime_unset"        => "Unset the reply due time on ticket #:rel.",
+    "ticket_resolve_duetime_unset"      => "Unset the resolve due time on ticket #:rel.",
+    "ticket_duetime_paused"             => "Pausó la hora de entrega en el ticket #:rel hasta la respuesta del siguiente usuario.",
+    "ticket_duetime_unpaused"           => "Unpaused the due times on ticket #:rel.",
+    "user_email_verified"               => "Verified their email address.",
+    "marked_email_as_verified"          => "Verified ownership of email address on behalf of user :rel.",
+    "user_invited_to_organisation"      => "User :rel invited to organisation :extra_rel1.",
+    "user_accepted_organisation_invite" => "User :rel accepted invitation to organisation :extra_rel1.",
+    "user_additional_email_verified"    => "Verified an additional email address (:new_value).",
+    "export_generated"                  => "La exportación :new_value del usuario :rel se ha generado y ha sido almacenada en el sistema.",
+    "export_deleted"                    => "La exportación :old_value del usuario :rel se ha eliminado del sistema.",
+    "user_export_generated"             => "Export :new_value of user :rel has been generated and stored on the system.",
+
+    /*
+     * 5.0.2
+     */
+    "personal_reply_templates_updated"  => "Updated their reply templates.",
+
+    /*
+     * 5.1.0
+     */
+    "ticket_deleted_attachment"         => "Deleted attachment ':old_value' from ticket #:rel.",
+    "user_added_to_group"               => "User :rel added to user group :new_value.",
+    "user_removed_from_group"           => "User :rel removed from user group :old_value.",
+    "operator_added_to_group"           => "Operator :rel added to operator group :new_value.",
+    "operator_removed_from_group"       => "Operator :rel removed from operator group :old_value.",
+
+    /*
+     * 5.2.0
+     */
+    "background_job_deleted"            => "Deleted background job :rel.",
+    "background_job_retried"            => "Retried background job :rel.",
 
 );
