@@ -176,7 +176,7 @@ return array(
     /*
      * 3.6.1
      */
-    "upgrade_via_docker"        => "Implementación de Docker detectada. Para actualizar, siga https://docs.supportpal.com/current/Upgrade+Guide#docker",
+    "upgrade_via_docker"        => "Implementación de Docker detectada. Para actualizar, sigue https://docs.supportpal.com/current/Upgrade+Guide#docker",
 
     /*
      * 3.7.0
@@ -186,17 +186,17 @@ return array(
     /*
      * 4.2.0
      */
-    "app_manager_version_not_supported" => "App Manager (:version) is not supported.",
-    "running_upgrade"           => "Running app upgrade",
-    "upgrade_complete_success"  => "App upgrade completed successfully.",
-    "app_manager_requires_update" => "Must update app-manager before running helpdesk update. :command",
+    "app_manager_version_not_supported" => "El administrador de aplicación (:version) no es compatible.",
+    "running_upgrade"           => "Ejecución de la actualización de la aplicación.",
+    "upgrade_complete_success"  => "La actualización de la aplicación se ha completado correctamente.",
+    "app_manager_requires_update" => "Debe actualizar el administrador de aplicación antes de ejecutar la actualización del Help Desk. :command",
 
     /*
      * 5.0.0
      */
-    "mysql_client_version"      => "Versión del cliente >= :min (:mysqlnd_min para MySQLnd)",
-    "mysql_client_version_desc" => "MySQL versión del cliente :min o superior (:mysqlnd_min para MySQLnd) se requiere para ejecutar SupportPal. Hemos encontrado: ':version'.",
-    "post_install"              => "Para que el sistema funcione correctamente, se debe configurar un Cron Job. Por favor, lee nuestro <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps'>post de pasos para la instalación</a> para más detalles sobre este tema y otras acciones recomendadas para mejorar la funcionalidad y la seguridad.",
-    "help_allowed_methods"      => "Tu servidor web debe permitir todos los métodos HTTP de abajo. Por favor, comprueba nuestra documentación <a href='https://docs.supportpal.com/current/New+Installation#PostInstallationSteps' target='_blank'>Nueva instalación</a> para más información.",
+    "mysql_client_version"      => "Versión del cliente >= :min",
+    "mysql_client_version_desc" => "Se requiere la versión :min o superior del cliente MySQL para ejecutar SupportPal. Versión encontrada: ':version'.",
+    "post_install"              => "Para que el sistema funcione correctamente, debe configurarse un cron job. Lee nuestra <a href='https://docs.supportpal.com/current/Administration'>documentación</a> para más información sobre esta y otras acciones recomendadas para mejorar la funcionalidad y la seguridad.",
+    "help_allowed_methods"      => "Tu servidor web debe permitir todos los métodos HTTP indicados a continuación. Consulta nuestra <a href='https://docs.supportpal.com/current/System+Requirements#WebServer' target='_blank'>nueva documentación de instalación</a> para obtener más informacion.",
 
 );

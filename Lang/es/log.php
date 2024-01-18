@@ -69,7 +69,7 @@ return array(
     "ticket_tag_added"                  => "Añadió la etiqueta :new_value al ticket #:rel.",
     "ticket_tag_updated"                => "Actualizó las etiquetas en el ticket #:rel.",
     "ticket_tag_removed"                => "Eliminó etiqueta :new_value del ticket #:rel.",
-    "ticket_slaplan_updated"            => "Actualizó el plan SLA en el ticket #:rel de :old_value a :new_value.",
+    "ticket_slaplan_updated"            => "Actualizó el plan ANS en el ticket #:rel de :old_value a :new_value.",
     "ticket_duetime_updated"            => "Actualizó la hora de entrega en el ticket #:rel a :new_value.",
     "ticket_customfield_updated"        => "Actualizó los campos personalizados en el ticket #:rel.",
     "ticket_converted_user"             => "Convirtió el ticket interno #:rel a ticket del usuario.",
@@ -84,8 +84,8 @@ return array(
     "ticket_unlocked"                   => "Desbloqueó el ticket #:rel.",
     "ticket_locked_reply"               => "La respuesta no se pudo añadir al ticket bloqueado #:rel.",
 
-    "ticket_merged"                     => "Ticket(s) :new_value combinado(s) en el ticket #:rel.",
-    "ticket_unmerged"                   => "El Ticket :rel se ha descombinado.",
+    "ticket_merged"                     => "Ticket(s) :new_value fusionado(s) en el ticket #:rel.",
+    "ticket_unmerged"                   => "Se ha anulado la fusión del Ticket :rel.",
 
     "ticket_user_blocked"               => "Correo bloqueado :new_value (del usuario en el ticket #:rel).",
 
@@ -201,57 +201,57 @@ return array(
     /*
      * 4.1.0
      */
-    "user_merged"                       => "User :old_value merged into user :rel.",
-    "user_organisation_merged"          => "User organisation :old_value merged into user organisation :rel.",
+    "user_merged"                       => "El usuario :old_value se ha fusionado con el usuario :rel.",
+    "user_organisation_merged"          => "La organización del usuario :old_value se ha fusionado con la organización del usuario :rel.",
 
     /*
      * 4.2.0
      */
-    "operator_reply_templates_updated"  => "Updated :rel's reply templates.",
+    "operator_reply_templates_updated"  => "Se han actualizado las plantillas de respuesta de :rel.",
 
     /*
      * 5.0.0
      */
-    "addon_activated"                   => "Activated :item (add-on) :rel.",
-    "addon_deactivated"                 => "Deactivated :item (add-on) :rel.",
-    "addon_installed"                   => "Installed :item (add-on) :rel.",
-    "addon_uninstalled"                 => "Uninstalled :item (add-on) :rel.",
-    "addon_cancelled"                   => "Cancelled :item (add-on) :rel.",
-    "addon_updated"                     => "Updated :item (add-on) :rel to version :new_value.",
-    "ticket_reply_duetime_updated"      => "Updated the reply due time on ticket #:rel to :new_value.",
-    "ticket_resolve_duetime_updated"    => "Updated the resolve due time on ticket #:rel to :new_value.",
-    "ticket_duetime_unset"              => "Desactivó la hora de entrega en el ticket #:rel.",
-    "ticket_reply_duetime_unset"        => "Unset the reply due time on ticket #:rel.",
-    "ticket_resolve_duetime_unset"      => "Unset the resolve due time on ticket #:rel.",
-    "ticket_duetime_paused"             => "Pausó la hora de entrega en el ticket #:rel hasta la respuesta del siguiente usuario.",
-    "ticket_duetime_unpaused"           => "Unpaused the due times on ticket #:rel.",
-    "user_email_verified"               => "Verified their email address.",
-    "marked_email_as_verified"          => "Verified ownership of email address on behalf of user :rel.",
-    "user_invited_to_organisation"      => "User :rel invited to organisation :extra_rel1.",
-    "user_accepted_organisation_invite" => "User :rel accepted invitation to organisation :extra_rel1.",
-    "user_additional_email_verified"    => "Verified an additional email address (:new_value).",
-    "export_generated"                  => "La exportación :new_value del usuario :rel se ha generado y ha sido almacenada en el sistema.",
-    "export_deleted"                    => "La exportación :old_value del usuario :rel se ha eliminado del sistema.",
-    "user_export_generated"             => "Export :new_value of user :rel has been generated and stored on the system.",
+    "addon_activated"                   => ":item activado/a (complemento) :rel.",
+    "addon_deactivated"                 => ":item desactivado/a (complemento) :rel.",
+    "addon_installed"                   => ":item instalado/a (complemento) :rel.",
+    "addon_uninstalled"                 => ":item desinstalado/a (complemento) :rel.",
+    "addon_cancelled"                   => ":item cancelado/a (complemento) :rel.",
+    "addon_updated"                     => ":item (complemento) actualizado/a :rel a la versión :new_value.",
+    "ticket_reply_duetime_updated"      => "Se ha actualizado el plazo de respuesta en el ticket #:rel a :new_value.",
+    "ticket_resolve_duetime_updated"    => "Se ha actualizado el plazo de resolución en el ticket #:rel a :new_value.",
+    "ticket_duetime_unset"              => "Desactivar el plazo de resolución en el ticket #:rel.",
+    "ticket_reply_duetime_unset"        => "Desactivar el plazo de respuesta en el ticket #:rel.",
+    "ticket_resolve_duetime_unset"      => "Desactivar el plazo de resolución en el ticket #:rel.",
+    "ticket_duetime_paused"             => "Se han pausado los plazos del ticket #:rel.",
+    "ticket_duetime_unpaused"           => "Se han reanudado los plazos del ticket #:rel.",
+    "user_email_verified"               => "Se ha verificado su dirección de correo electrónico.",
+    "marked_email_as_verified"          => "Se ha verificado la propiedad de la dirección de correo electrónico en nombre del usuario :rel.",
+    "user_invited_to_organisation"      => "Se ha invitado al usuario :rel a la organización :extra_rel1.",
+    "user_accepted_organisation_invite" => "El usuario :rel ha aceptado la invitación a la organización :extra_rel1.",
+    "user_additional_email_verified"    => "Se ha verificado una dirección de correo electrónico adicional (:new_value).",
+    "export_generated"                  => "La exportación :new_value se ha generado y almacenado en el sistema.",
+    "export_deleted"                    => "La exportación :old_value se ha  eliminado del sistema.",
+    "user_export_generated"             => "La exportación :new_value del usuario :rel se ha generado y almacenado en el sistema.",
 
     /*
      * 5.0.2
      */
-    "personal_reply_templates_updated"  => "Updated their reply templates.",
+    "personal_reply_templates_updated"  => "Se han actualizado sus plantillas de respuesta.",
 
     /*
      * 5.1.0
      */
-    "ticket_deleted_attachment"         => "Deleted attachment ':old_value' from ticket #:rel.",
-    "user_added_to_group"               => "User :rel added to user group :new_value.",
-    "user_removed_from_group"           => "User :rel removed from user group :old_value.",
-    "operator_added_to_group"           => "Operator :rel added to operator group :new_value.",
-    "operator_removed_from_group"       => "Operator :rel removed from operator group :old_value.",
+    "ticket_deleted_attachment"         => "Se ha eliminado el archivo adjunto ':old_value' del ticket #:rel.",
+    "user_added_to_group"               => "Se ha añadido el usuario :rel al grupo de usuarios :new_value.",
+    "user_removed_from_group"           => "Se ha eliminado el usuario :rel del grupo de usuarios :old_value.",
+    "operator_added_to_group"           => "Se ha añadido el operador :rel al grupo de operadores :new_value.",
+    "operator_removed_from_group"       => "Se ha elminado el operador :rel del grupo de operadores :old_value.",
 
     /*
      * 5.2.0
      */
-    "background_job_deleted"            => "Deleted background job :rel.",
-    "background_job_retried"            => "Retried background job :rel.",
+    "background_job_deleted"            => "Se ha eliminado la tarea en segundo plano :rel.",
+    "background_job_retried"            => "Se volvió a intentar la tarea en segundo plano :rel.",
 
 );

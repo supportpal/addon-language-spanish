@@ -5,7 +5,7 @@ return array(
     "generalsetting"    => "Actualizar ajustes generales",
 
     // Core
-    "apitoken"          => "Administrar API Tokens",
+    "apitoken"          => "Administrar Tokens de API",
     "emailtemplate"     => "Administrar plantillas de correo",
     "ipban"             => "Administrar baneos de IP",
     "ipwhitelist"       => "Administrar lista blanca de IP",
@@ -41,7 +41,7 @@ return array(
     "macro"             => "Administrar macros",
     "priority"          => "Administrar prioridades",
     "schedule"          => "Administrar horarios",
-    "slaplan"           => "Administrar planes SLA",
+    "slaplan"           => "Administrar planes ANS",
     "status"            => "Administrar estados",
     "ticket_view"       => "Ver Tickets",
     "ticket_add"        => "Abrir Tickets",
@@ -126,15 +126,15 @@ return array(
     /*
      * 4.2.0
      */
-    "operatorreplytemplate" => "Manage Operator Reply Templates",
+    "operatorreplytemplate" => "Administrar plantillas de respuesta del operador",
 
     /*
      * 5.0.0
      */
-    "private_messaging" => "View Private Messages",
+    "private_messaging" => "Ver mensajes privados",
 
     /*
      * 5.1.0
      */
-    "manage_report"     => "Manage Reports",
+    "manage_report"     => "Administrar informes",
 );

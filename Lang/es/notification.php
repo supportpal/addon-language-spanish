@@ -8,6 +8,9 @@ return array(
     "new_reply"             => "Nueva respuesta del ticket",
     "new_reply_text"        => "Se ha publicado una nueva respuesta por :name en el Ticket #:item.",
 
+    "operator_login"        => "Inicio de sesión del operador",
+    "operator_login_text"   => ":name ha iniciado sesión en el panel del operador.",
+
     "failed_logins"         => "Error en el inicio de sesión del operador",
     "new_comments"          => "Nuevos comentarios",
 
@@ -24,7 +27,7 @@ return array(
     /*
      * 4.2.0
      */
-    "new_mention"           => "New Mention",
-    "new_mention_text"      => ":name mentioned you in ticket #<a href=':route'>:number</a>.",
+    "new_mention"           => "Nueva mención",
+    "new_mention_text"      => ":name te ha mencionado en el ticket #<a href=':route'>:number</a>.",
 
 );

@@ -14,6 +14,7 @@ use Addons\Languages\Spanish\Seeds\SeedTicketPriorityTranslationTable;
 use Addons\Languages\Spanish\Seeds\SeedTicketStatusTranslationTable;
 use Addons\Languages\Spanish\Seeds\SeedUserGroupTranslationTable;
 use App\Modules\Core\Controllers\Languages\Language;
+use App\Modules\Selfservice\Models\Type;
 
 use function app;
 
@@ -59,6 +60,9 @@ class Spanish extends Language
         app()->make(SeedScheduledTaskTranslationTable::class)->run();
         app()->make(SeedArticleTypeTranslationTable::class)->run();
         app()->make(SeedEmailTemplateDataTable::class)->run();
+
+        // Update article type cache.
+        Type::setCache(null, true);
 
         return true;
     }

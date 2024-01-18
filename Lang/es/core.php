@@ -360,7 +360,7 @@ return array(
      */
     "enable_ssl_warning"        => "Si habilitas este ajuste cuando la página no carga correctamente, puede que se te bloquee el acceso a SupportPal.",
     "verify_frontend_loads"     => "Por favor, verifica que el front-end carga correctamente más abajo.",
-    "twig_operator_reply_template"   => "The {{ operator.reply_template|raw }} merge field will be processed at runtime hence the preview may be incorrect.",
+    "twig_operator_signature"   => "El campo de combinación {{ operator.signature|raw }} será procesado al tiempo de ejecución por lo que la previsualización puede ser incorrecta.",
 
     /*
      * 2.4.1
@@ -501,7 +501,7 @@ return array(
     "binary_paths"              => "Rutas binarias",
     "binary_paths_desc"         => "La variable de entorno PATH se utiliza para encontrar los binarios necesarios. Si no se encuentran uno o más binarios, se puede especificar la ruta completa de cada archivo binario.",
     "cron_makesure"             => "Para ayuda al registrar el Cron Job, visita <a target='_blank' href='https://docs.supportpal.com/current/Configuring+the+Cron'>Ayuda para el Cron Job</a>.",
-    "cron_must_run_for_update"  => "El cron job debe estar en ejecución para utilizar esta función.",
+    "cron_must_run_for_update"  => "El Cron Job debe estar en ejecución para utilizar esta función.",
     "support_expired"           => "El soporte y las actualizaciones de tu licencia han expirado.",
     "update_permitted_version"  => "La licencia solo permite actualizar a la versión :version.",
     "update_renew_support"      => "Para obtener la última versión de SupportPal, por favor, renueva el soporte y las actualizaciones.",
@@ -593,72 +593,72 @@ return array(
     /*
      * 4.2.0
      */
-    "keyboard_shortcuts"        => "Keyboard Shortcuts",
-    "enable_keyboard_shortcuts" => "Enable keyboard shortcuts",
-    "shortcut_global"           => "Global shortcuts",
-    "shortcut_toggle"           => "Toggle the keyboard shortcuts dialog",
-    "shortcut_start_search"     => "Start search",
-    "shortcut_goto_new_ticket"  => "Go to the open new ticket page",
-    "shortcut_ticket_view"      => "Ticket view shortcuts",
-    "shortcut_focus_reply"      => "Focus the reply form",
-    "shortcut_focus_notes"      => "Focus the notes form",
-    "shortcut_focus_forward"    => "Focus the forward form",
-    "shortcut_toggle_user_tab"  => "Toggle the user details tab in the sidebar",
-    "shortcut_take_ticket"      => "Take ticket",
-    "shortcut_close_ticket"     => "Close ticket",
-    "shortcut_lock_ticket"      => "Close & lock ticket",
-    "shortcut_unlock_ticket"    => "Unlock ticket",
-    "shortcut_trash_ticket"     => "Move ticket to trash",
-    "shortcut_block_user"       => "Block user and move ticket to trash",
-    "shortcut_watch_ticket"     => "Watch ticket",
-    "shortcut_unwatch_ticket"   => "Unwatch ticket",
-    "shortcut_merge_ticket"     => "Merge ticket",
-    "shortcut_unmerge_ticket"   => "Unmerge ticket",
-    "shortcut_expand_all"       => "Expand all messages",
-    "shortcut_collapse_all"     => "Collapse all messages",
-    "shortcut_print_ticket"     => "Print ticket details and messages",
+    "keyboard_shortcuts"        => "Atajos de teclado",
+    "enable_keyboard_shortcuts" => "Habilitar atajos de teclado",
+    "shortcut_global"           => "Atajos globales",
+    "shortcut_toggle"           => "Activar el diálogo de atajos de teclado",
+    "shortcut_start_search"     => "Comenzar búsqueda",
+    "shortcut_goto_new_ticket"  => "Ir a la página de abrir nuevo ticket",
+    "shortcut_ticket_view"      => "Atajos de la visualización de tickets",
+    "shortcut_focus_reply"      => "Enfocar el formulario de respuesta",
+    "shortcut_focus_notes"      => "Enfocar el formulario de notas",
+    "shortcut_focus_forward"    => "Enfocar el formulario de reenvío",
+    "shortcut_toggle_user_tab"  => "Activar la pestaña de detalles del usuario en la barra lateral",
+    "shortcut_take_ticket"      => "Tomar ticket",
+    "shortcut_close_ticket"     => "Cerrar ticket",
+    "shortcut_lock_ticket"      => "Cerrar & bloquear ticket",
+    "shortcut_unlock_ticket"    => "Desbloquear ticket",
+    "shortcut_trash_ticket"     => "Mover ticket a la papelera",
+    "shortcut_block_user"       => "Bloquear usuario y mover ticket a la papelera",
+    "shortcut_watch_ticket"     => "Seguir ticket",
+    "shortcut_unwatch_ticket"   => "Dejar de seguir ticket",
+    "shortcut_merge_ticket"     => "Fusionar ticket",
+    "shortcut_unmerge_ticket"   => "Separar ticket",
+    "shortcut_expand_all"       => "Expandir todos los mensajes",
+    "shortcut_collapse_all"     => "Contraer todos los mensajes",
+    "shortcut_print_ticket"     => "Imprimir la información del ticket y los mensajes",
 
     /*
      * 4.3.0
      */
-    "db_connection_error"       => "Database connection error, please check :path",
+    "db_connection_error"       => "Error de conexión a la base de datos, comprueba :path",
 
     /*
      * 5.0.0
      */
-    "favicon_dark_mode"         => "Dark Mode Favicon",
-    "favicon_dark_mode_desc"    => "If your favicon was designed to only work on a light background, set a different favicon for dark mode. This will only be used if your browser and/or operating system is running in dark mode.",
-    "template_mode_system_desc" => "Choosing system will synchronise the template mode to light or dark mode depending on your operating system theme settings.",
+    "favicon_dark_mode"         => "Favicon de modo oscuro",
+    "favicon_dark_mode_desc"    => "Si tu favicon fue diseñado para funcionar sólo sobre un fondo claro, configura un favicon diferente para el modo oscuro. Este solo se utilizará si tu navegador y/o sistema operativo funcionan en modo oscuro.",
+    "template_mode_system_desc" => "Al elegir el sistema, el modo de plantilla se sincronizará con el modo claro u oscuro en función de la configuración del tema de tu sistema operativo.",
 
     /*
      * 5.0.1
      */
-    "starttls_or_none"          => "STARTTLS / None",
+    "starttls_or_none"          => "STARTTLS / Ninguno",
 
     /*
      * 5.1.0
      */
-    "email_attempt_at_desc"     => "The email failed to send. Retrying again :time.", // :time example, "in 5 mins"
-    "websockets_connection"     => "Web Sockets Connection",
-    "websockets_not_running"    => "Unable to connect to web socket server.",
-    "search_driver_check"       => "Search Driver",
-    "search_driver_not_working" => "The configured search driver is not working correctly.",
+    "email_attempt_at_desc"     => "Se ha producido un error al enviar el correo. Se intentará volver a enviar :time.", // :time example, "in 5 mins"
+    "websockets_connection"     => "Conexión a Web Sockets",
+    "websockets_not_running"    => "Imposible conectarse al servidor de web sockets.",
+    "search_driver_check"       => "Motor de búsqueda",
+    "search_driver_not_working" => "El motor de búsqueda configurado no funciona correctamente.",
 
     /*
      * 5.2.0
      */
-    "temporary_path"            => "Temporary Path",
-    "temporary_path_desc"       => "The temporary path is used to store files during the update. The system temporary path is used by default. The path must have at least 3GB of free space.",
-    "background_jobs_desc"      => "Below are a list of background jobs that have failed recently.",
-    "failed_jobs"               => "Failed Jobs",
-    "horizon_dashboard"         => "Horizon Dashboard",
-    "job"                       => "Job|Jobs",
-    "job_payload"               => "Job Payload",
-    "job_exception"             => "Job Exception",
-    "failed_at"                 => "Failed At",
-    "queue"                     => "Queue",
-    "exception"                 => "Exception",
-    "data"                      => "Data",
-    "failed_background_jobs"    => "One or more <a target='_blank' href=':link'>background jobs</a> have failed and require manual attention.",
+    "temporary_path"            => "Ruta temporal",
+    "temporary_path_desc"       => "La ruta temporal se utiliza para almacenar archivos durante la actualización. Por defecto se utiliza la ruta temporal del sistema. La ruta debe tener al menos 3 GB de espacio libre.",
+    "background_jobs_desc"      => "A continuación figura una lista de tareas en segundo plano que han fallado recientemente.",
+    "failed_jobs"               => "Tareas fallidas",
+    "horizon_dashboard"         => "Panel de control Horizon",
+    "job"                       => "Tarea|Tareas",
+    "job_payload"               => "Carga de tareas",
+    "job_exception"             => "Excepción de tareas",
+    "failed_at"                 => "Fallos",
+    "queue"                     => "Cola",
+    "exception"                 => "Excepción",
+    "data"                      => "Datos",
+    "failed_background_jobs"    => "Una o más <a target='_blank' href=':link'>tareas en segundo plano</a> han fallado y necesitan atención manual",
 
 );

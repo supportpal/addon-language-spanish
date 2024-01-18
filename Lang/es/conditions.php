@@ -19,7 +19,7 @@ return array(
     "ticket_message_content"            => "Contenido del mensaje del ticket",
     "ticket_message_count"              => "Número de mensajes del ticket",
     "ticket_priority"                   => "Prioridad del ticket",
-    "ticket_sla_plan"                   => "Plan SLA del ticket",
+    "ticket_sla_plan"                   => "Plan ANS del ticket",
     "ticket_status"                     => "Estado del ticket",
     "ticket_subject"                    => "Asunto del ticket",
     "ticket_tag"                        => "Etiqueta del ticket",
@@ -45,7 +45,7 @@ return array(
     "ticket_has_attachments"            => "El ticket contiene archivos adjuntos",
     "ticket_has_drafts"                 => "El ticket contiene borradores",
     "ticket_locked"                     => "Ticket bloqueado",
-    "ticket_merged"                     => "Ticket combinado",
+    "ticket_merged"                     => "Ticket fusionado",
     "ticket_message_count_exc_notes"    => "Número de mensajes del ticket (excluyendo notas)",
     "ticket_note_count"                 => "Número de notas del ticket",
     "ticket_number"                     => "Número del ticket",
@@ -111,6 +111,6 @@ return array(
     /*
      * 5.0.0
      */
-    "user_email_verified"               => "User email verified",
-    "ticket_has_followup"               => "Ticket has follow up",
+    "user_email_verified"               => "Correo del usuario verificado",
+    "ticket_has_followup"               => "El ticket tiene seguimiento",
 );

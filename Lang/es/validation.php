@@ -171,14 +171,14 @@ return array(
     /*
      * 4.3.0
      */
-    "is_invalid"                => "The :attribute is invalid.",
+    "is_invalid"                => "El/la :attribute es inválido/a.",
 
     /*
      * 5.0.0
      */
-    "current_password"           => "The password is incorrect.",
-    "department_email_per_brand" => "An email account must exist for each brand assigned to this department.",
-    "department_has_a_priority"  => "Department(s) :departments are public and must be assigned to at least one priority.",
+    "current_password"           => "La contraseña es incorrecta.",
+    "department_email_per_brand" => "Debe existir una cuenta de correo electrónico para cada marca asignada a este departamento..",
+    "department_has_a_priority"  => "El/los departamento(s) :departments es/son público(s) y debe(n) asignarse al menos a una prioridad.",
 
     /*
     |--------------------------------------------------------------------------

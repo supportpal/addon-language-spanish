@@ -28,7 +28,7 @@ return array(
      */
     "close_and_lock_ticket"     => "Cerrar y bloquear ticket",
     "unlock_ticket"             => "Desbloquear ticket",
-    "update_sla_plan"           => "Actualizar plan SLA",
+    "update_sla_plan"           => "Actualizar plan ANS",
     "update_subject"            => "Actualizar asunto",
     "add_user_to_group"         => "Añadir usuario al grupo de usuarios",
     "remove_user_from_group"    => "Eliminar usuario del grupo de usuarios",
@@ -72,15 +72,15 @@ return array(
     /*
      * 5.0.0
      */
-    "increase_resolve_due_time" => "Increase resolution due time",
-    "increase_reply_due_time"   => "Increase reply due time",
-    "reduce_resolve_due_time"   => "Reduce resolution due time",
-    "reduce_reply_due_time"     => "Reduce reply due time",
-    "set_resolve_due_time"      => "Set resolution due time",
-    "set_reply_due_time"        => "Set reply due time",
-    "clear_resolve_due_time"    => "Clear resolution due time",
-    "clear_reply_due_time"      => "Clear reply due time",
-    "pause_due_times"           => "Pause due times",
-    "unpause_due_times"         => "Unpause due times",
+    "increase_resolve_due_time" => "Aumentar el plazo de resolución",
+    "increase_reply_due_time"   => "Aumentar el plazo de respuesta",
+    "reduce_resolve_due_time"   => "Reducir el plazo de resolución",
+    "reduce_reply_due_time"     => "Reducir el plazo de respuesta",
+    "set_resolve_due_time"      => "Establecer el plazo de resolución",
+    "set_reply_due_time"        => "Establecer el plazo de respuesta",
+    "clear_resolve_due_time"    => "Borrar el plazo de resolución",
+    "clear_reply_due_time"      => "Borrar el plazo de respuesta",
+    "pause_due_times"           => "Pausar plazos",
+    "unpause_due_times"         => "Reanudar plazos",
 
 );

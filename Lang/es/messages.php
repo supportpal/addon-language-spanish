@@ -154,18 +154,18 @@ return array(
     /*
      * 4.1.1
      */
-    "brand_not_enabled"     => "This action cannot be performed as the brand is not enabled.",
-    "cannot_reply_to_internal" => "A user cannot reply to an internal ticket.",
+    "brand_not_enabled"     => "Esta acción no se puede realizar porque la marca no está habilitada.",
+    "cannot_reply_to_internal" => "Un usuario no puede responder a un ticket interno.",
 
     /*
      * 4.3.0
      */
-    "show_all_results"      => "Mostrar todos los resultados &raquo;",
+    "show_all_results"      => "Mostrar todos los resultados de ':search'",
 
     /*
      * 5.0.0
      */
-    "lock_timeout"          => "Lock Timeout",
-    "lock_timeout_desc"     => "The server is currently busy processing other requests. Please try again.",
+    "lock_timeout"          => "Tiempo de expiración de bloqueo",
+    "lock_timeout_desc"     => "El servidor está ocupado procesando otras solicitudes. Por favor, inténtalo de nuevo.",
 
 );

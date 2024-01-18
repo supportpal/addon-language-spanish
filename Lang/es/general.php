@@ -418,15 +418,15 @@ return array(
     /*
      * 4.1.0
      */
-    "merge"                     => "Merge",
+    "merge"                     => "Fusionar",
 
     /*
      * 5.0.0
      */
-    "invited"                   => "Invited",
-    "apply"                     => "Apply",
-    "opened"                    => "Opened",
-    "week"                      => "Week|Weeks",
-    "quarter"                   => "Quarter|Quarters",
+    "invited"                   => "Invitado",
+    "apply"                     => "Aplicar",
+    "opened"                    => "Abierto",
+    "week"                      => "Semana|Semanas",
+    "quarter"                   => "Trimestre|Trimestres",
 
 );

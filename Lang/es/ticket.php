@@ -182,21 +182,21 @@ return array(
     "holiday_month_year_desc"   => "El año es opcional si las vacaciones son recurrentes. Selecciona un año solo si las vacaciones ocurren en esta fecha en un año en particular.",
 
     // SLA Plans
-    "sla_plan"                  => "Plan SLA|Planes SLA",
+    "sla_plan"                  => "Plan ANS|Planes ANS",
     "specific_schedule"         => "Horarios específicos",
     "calendar_hours_24"         => "Horas del calendario (24 Horas)",
     "plan"                      => "Plan",
-    "sla_condition"             => "Condiciones SLA",
-    "sla_condition_desc"        => "Define las condiciones del ticket por las que los tickets nuevos se comprueban para ver si cumplen con este plan. Si un nuevo ticket cumple con varios planes SLA, se seleccionará en la prioridad del plan, lo cual se puede modificar a través de una lista de planes y reorganizándolo.",
+    "sla_condition"             => "Condiciones ANS",
+    "sla_condition_desc"        => "Define las condiciones del ticket por las que los tickets nuevos se comprueban para ver si cumplen con este plan. Si un nuevo ticket cumple con varios planes ANS, se seleccionará en la prioridad del plan, lo cual se puede modificar a través de una lista de planes y reorganizándolo.",
     "escalation_rule"           => "Reglas de escalación",
-    "escalation_rule_desc"      => "Define acciones que se llevan a cabo cuando un ticket bajo este plan SLA está cerca de la fecha de vencimiento o está vencido. Por favor, asegúrate de que las reglas son válidas para el departamento en el que se encuentra el ticket, ya que de lo contrario no tendrán ningún efecto.",
+    "escalation_rule_desc"      => "Define acciones que se llevan a cabo cuando un ticket bajo este plan ANS está cerca de la fecha de vencimiento o está vencido. Por favor, asegúrate de que las reglas son válidas para el departamento en el que se encuentra el ticket, ya que de lo contrario no tendrán ningún efecto.",
     "condition"                 => "Condición",
     "condition_group"           => "Condiciones del grupo",
     "all_groups"                => "TODOS los grupos deben ser verdaderos",
     "any_group"                 => "CUALQUIER grupo puede ser verdadero",
     "all_conditions"            => "TODAS las condiciones en el grupo deben ser verdaderas",
     "any_condition"             => "CUALQUIER condición en el grupo puede ser verdadera",
-    "sla_plan_desc"             => "Los planes SLA son procesados en el orden en el que aparecen. Arrastra las filas para reorganizar y ajustar la prioridad de los planes SLA.",
+    "sla_plan_desc"             => "Los planes ANS son procesados en el orden en el que aparecen. Arrastra las filas para reorganizar y ajustar la prioridad de los planes ANS.",
 
     // Reply options
     "reply_options"             => "Opciones de respuesta",
@@ -277,7 +277,7 @@ return array(
     "overdue"                   => "Vencido(s)",
     "unassigned"                => "Desasignado(s)",
 
-    "pause_duetime_desc"        => "Si hay un plan SLA activo en este ticket, pausa el tiempo que queda para la entrega hasta después de la fecha del seguimiento. La hora de entrega solo se restablecerá una vez que una respuesta o una nota se hayan añadido al ticket (incluyendo del seguimiento).",
+    "pause_duetime_desc"        => "Si hay un plan ANS activo en este ticket, pausa el tiempo que queda para la entrega hasta después de la fecha del seguimiento. La hora de entrega solo se restablecerá una vez que una respuesta o una nota se hayan añadido al ticket (incluyendo del seguimiento).",
 
     "add_cc"                    => "Añadir CC",
     "reply_above_line"          => "Por favor, responde por encima de esta línea",
@@ -363,7 +363,7 @@ return array(
     "prioritise_reply-to"       => "Priorizar Responder a",
     "prioritise_reply-to_desc"  => "Alterna para priorizar la cabecera 'Responder a' en vez de la cabecera 'De'. Al activarse, los tickets abiertos a través del correo electrónico se abrirán en nombre de la dirección y el nombre del Responder a.",
     "note_options"              => "Opciones de notas",
-    "escalation_rules_desc"     => "Las reglas de escalación de plan SLA más abajo están programadas para ejecutarse después de las horas que aparecen. Estas horas pueden cambiar o las reglas pueden eliminarse si un operador responde a este ticket.",
+    "escalation_rules_desc"     => "Las reglas de escalación de plan ANS más abajo están programadas para ejecutarse después de las horas que aparecen. Estas horas pueden cambiar o las reglas pueden eliminarse si un operador responde a este ticket.",
 
     /*
      * 2.1.2
@@ -399,7 +399,7 @@ return array(
     "canned_response_tag"       => "Etiqueta de respuestas predefinidas|Etiquetas de respuestas predefinidas",
     "response"                  => "Respuesta|Respuestas",
     "response_desc"             => "La respuesta predefinida se puede escribir en varias lenguas. La respuesta adecuada se utilizará automáticamente basada en la preferencia de lenguas del usuario.",
-    "no_slaplans"               => "No se han encontrado planes SLA. Haz click <a href=':route'>aquí</a> para crear uno.",
+    "no_slaplans"               => "No se han encontrado planes ANS. Haz click <a href=':route'>aquí</a> para crear uno.",
     "filter_performance"        => "Recomendaciones y consideraciones para el rendimiento",
     "filter_performance_desc"   => "<li>Los filtros que se correspondan con más tickets serán más lentos, en la mayoría de los casos intenta excluir tickets resueltos.</li><li>Los filtros que utilicen las condiciones 'no es' normalmente serán más lentos que los que usan las condiciones 'es'.</li><li>Los filtros que comprueben los valores NULL (por ejemplo, la etiqueta del ticket es Ninguno/a) serán más lentos.</li><li>Evita múltiples condiciones que impliquen comprobar cadenas/palabras, ya que lo hace más complejo.</li><li>Los filtros que utilizan las condiciones 'comienza con' o 'contiene' serán generalmente más lentos que los que utilizan 'equivale a' o 'termina con'.</li><li>Los tickets resueltos se excluyen de los recuentos que se muestran en la barra lateral.</li>",
     "run_macro"                 => "Ejecutar Macro",
@@ -534,36 +534,36 @@ return array(
     /*
      * 4.1.0
      */
-    "ticket_format_desc"        => "Puede contener caracteres alfanuméricos y caracteres especiales <code>-_.+!*,</code><br />Las siguientes variables también pueden utilizarse: %S para un número secuencial | %N para un número aleatorio | %L para una letra aleatoria<br />Utiliza {number} para repetir <strong>solo</strong> después de %N o %L, Por ejemplo, %N{4} equivale a 4 números aleatorios, %L{3} es igual a 3 letras aleatorias.<br />Los siguientes parámetros <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Date</a> prefijados con % Y,y,m,d,j,g,G,h,H,i,s",
-    "append_ip_address_api_desc" => "Append the user's IP address to the end of their ticket messages (requires user_ip_address data to be provided).",
-    "check_spam"                => "Check Spam Rules",
-    "check_spam_api_desc"       => "Block messages which match spam rules.",
-    "enable_throttling"         => "Enable Throttling",
-    "enable_throttling_api_desc" => "Limit the number of messages user's can post within a time frame. See <a href='https://docs.supportpal.com/current/App+Configuration#Throttling' target='_blank'>Throttling configuration</a> for more details on how to adjust the limits.",
-    "captcha_desc"              => "Cuando el captcha debería mostrarse a los usuarios abriendo nuevos tickets.",
+    "ticket_format_desc"        => "Puede contener caracteres alfanuméricos y caracteres especiales <code>-_.+!*,</code><br />Las siguientes variables también pueden utilizarse: %S para un número secuencial | %N para un número aleatorio | %L para una letra aleatoria<br />Utiliza {number} para repetir <strong>solo</strong> después de %N o %L, Por ejemplo, %N{4} equivale a 4 números aleatorios, %L{3} es igual a 3 letras aleatorias.<br />Los siguientes parámetros <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Date</a> prefijados con % Y,y,m,d,z,j,g,G,h,H,i,s",
+    "append_ip_address_api_desc" => "Añade la dirección IP del usuario al final de sus mensajes de ticket (requiere que se proporcionen los datos user_ip_address).",
+    "check_spam"                => "Comprobar las reglas de spam",
+    "check_spam_api_desc"       => "Bloquea los mensajes que coincidan con las reglas de spam.",
+    "enable_throttling"         => "Activar limitación",
+    "enable_throttling_api_desc" => "Limita el número de mensajes que un usuario puede publicar en un periodo de tiempo determinado. Consulta <a href='https://docs.supportpal.com/current/App+Configuration#Throttling' target='_blank'>la configuración de la limitación</a> para más información sobre cómo ajustar los límites.",
+    "captcha_desc"              => "Cuándo debe mostrarse el captcha a los usuarios que abren nuevos tickets o utilizan la función de seguimiento de tickets.",
 
     /*
      * 5.0.0
      */
-    "also_viewing"              => "<strong>:name</strong> también está viendo el ticket.",
-    "mark_as_read"              => "Mark as Read",
-    "mark_as_unread"            => "Mark as Unread",
-    "sla_targets"               => "SLA Target|SLA Targets",
-    "sla_targets_desc"          => "Set target times that a ticket must be responded to by and resolved by per priority. The time will be counted only during business hours based on the schedule(s) chosen, decimal values can be used. Leave value blank to not set a target for that priority.",
-    "first_reply_time"          => "First Reply Time",
-    "next_reply_time"           => "Next Reply Time",
-    "resolution_time"           => "Horas de resolución",
-    "reply_due_in"              => "Reply due :time",
-    "resolve_in"                => "Resolve :time",
-    "paused_ago"                => "Paused :time",
-    "reply_due_time"            => "Reply due time",
-    "resolution_due_time"       => "Resolution due time",
-    "set_reply_due_time"        => "Set reply due time",
-    "set_resolution_due_time"   => "Set resolution due time",
+    "also_viewing"              => "También viendo el ticket:",
+    "mark_as_read"              => "Marcar como leído",
+    "mark_as_unread"            => "Marcar como no leído",
+    "sla_targets"               => "Objetivo de ANS|Objetivos de ANS",
+    "sla_targets_desc"          => "Establezca los plazos objetivo en los que un ticket se debe responder y resolver por prioridad. El tiempo se contará sólo durante las horas comerciales basadas en el horario elegido. Se pueden utilizar valores decimales. Deje el valor en blanco para no establecer un objetivo para esa prioridad.",
+    "first_reply_time"          => "Hora de la respuesta inicial",
+    "next_reply_time"           => "Hora de la siguiente respuesta",
+    "resolution_time"           => "Hora de la resolución",
+    "reply_due_in"              => "Respuesta prevista :time",
+    "resolve_in"                => "Resolver :time",
+    "paused_ago"                => "Pausado :time",
+    "reply_due_time"            => "Plazo de respuesta",
+    "resolution_due_time"       => "Plazo de resolución",
+    "set_reply_due_time"        => "Establecer el plazo de respuesta",
+    "set_resolution_due_time"   => "Establecer el plazo de resolución",
 
     /*
      * 5.2.0
      */
-    "block_user_desc"           => "The user will be unable to open any further tickets, and the ticket moved to the trash.",
+    "block_user_desc"           => "El usuario no podrá abrir más tickets y el ticket se moverá a la papelera.",
 
 );
