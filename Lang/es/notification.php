@@ -8,9 +8,6 @@ return array(
     "new_reply"             => "Nueva respuesta del ticket",
     "new_reply_text"        => "Se ha publicado una nueva respuesta por :name en el Ticket #:item.",
 
-    "operator_login"        => "Inicio de sesión del operador",
-    "operator_login_text"   => ":name ha iniciado sesión en el panel del operador.",
-
     "failed_logins"         => "Error en el inicio de sesión del operador",
     "new_comments"          => "Nuevos comentarios",
 

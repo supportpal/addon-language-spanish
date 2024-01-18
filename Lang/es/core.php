@@ -360,7 +360,7 @@ return array(
      */
     "enable_ssl_warning"        => "Si habilitas este ajuste cuando la página no carga correctamente, puede que se te bloquee el acceso a SupportPal.",
     "verify_frontend_loads"     => "Por favor, verifica que el front-end carga correctamente más abajo.",
-    "twig_operator_signature"   => "El campo de combinación {{ operator.signature|raw }} será procesado al tiempo de ejecución por lo que la previsualización puede ser incorrecta.",
+    "twig_operator_reply_template"   => "El campo de combinación {{ operator.reply_template|raw }} será procesado al tiempo de ejecución por lo que la previsualización puede ser incorrecta.",
 
     /*
      * 2.4.1
