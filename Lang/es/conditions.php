@@ -82,11 +82,6 @@ return array(
     "last_message_content"              => "Contenido del último mensaje",
 
     /*
-     * 2.5.0
-     */
-    "user_email_confirmed"              => "Correo del usuario confirmado",
-
-    /*
      * 3.0.0
      */
     "user_2fa_enabled"                  => "2FA del usuario activada",
@@ -112,4 +107,10 @@ return array(
      * 4.0.0
      */
     "last_message_content_exc_notes"    => "Contenido del último mensaje (excluyendo notas)",
+
+    /*
+     * 5.0.0
+     */
+    "user_email_verified"               => "User email verified",
+    "ticket_has_followup"               => "Ticket has follow up",
 );
