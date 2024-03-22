@@ -133,7 +133,6 @@ return array(
     "two_fa_secret"                 => "Secreto 2FA",
     "two_fa_secret_desc"            => "Por favor, almacena esto en algún lugar seguro ya que lo necesitarás para re-añadir la cuenta autenticadora a tu teléfono si perdieras el acceso.",
     "display_notifications"         => "Mostrar notificaciones",
-    "display_notifications_desc"    => "El sistema te notificará cuando se creen nuevos tickets o respuestas o cuando inicien sesión otros operadores. Puedes elegir entre notificaciones del escritorio o notificaciones en el navegador (in-browser), o puedes deshabilitarlo por completo.",
     "desktop_notifications"         => "Notificaciones del escritorio",
     "browser_notifications"         => "Notificaciones del navegador",
 
@@ -372,5 +371,10 @@ return array(
     "success_join"                  => "Ahora eres parte de la organización :name.",
     "error_join"                    => "No se ha encontrado el código de invitación o ha caducado.",
     "verify_to_view_tickets"        => "Verifica todas las direcciones de correo electrónico adicionales o elimina las direcciones de correo electrónico no verificadas en el perfil de tu cuenta.",
+
+    /*
+     * 5.2.3
+     */
+    "display_notifications_desc"    => "El sistema te notificará cuando se creen nuevos tickets o respuestas o cuando inicien sesión otros operadores. Puedes elegir entre notificaciones del escritorio o notificaciones en el navegador (in-browser), o puedes deshabilitarlo por completo.",
 
 );
