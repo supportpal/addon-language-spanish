@@ -88,4 +88,17 @@ return [
 
     'icon' => __DIR__ . '/Views/assets/img/icon.png',
 
+    /*
+    |--------------------------------------------------------------------------
+    | Supported help desk version
+    |--------------------------------------------------------------------------
+    |
+    | A version constraint to specify which versions of the help desk the
+    | addon is compatible with. For supported constraints, see
+    | https://getcomposer.org/doc/articles/versions.md
+    |
+    */
+
+    'supports' => '>=5.2',
+
 ];
