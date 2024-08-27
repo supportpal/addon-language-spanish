@@ -113,4 +113,9 @@ return array(
      */
     "user_email_verified"               => "Correo del usuario verificado",
     "ticket_has_followup"               => "El ticket tiene seguimiento",
+
+    /*
+     * 5.3.0
+     */
+    "user_registered"                   => "User registered",
 );

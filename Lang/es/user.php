@@ -133,7 +133,6 @@ return array(
     "two_fa_secret"                 => "Secreto 2FA",
     "two_fa_secret_desc"            => "Por favor, almacena esto en algún lugar seguro ya que lo necesitarás para re-añadir la cuenta autenticadora a tu teléfono si perdieras el acceso.",
     "display_notifications"         => "Mostrar notificaciones",
-    "display_notifications_desc"    => "El sistema te notificará cuando se creen nuevos tickets o respuestas o cuando inicien sesión otros operadores. Puedes elegir entre notificaciones del escritorio o notificaciones en el navegador (in-browser), o puedes deshabilitarlo por completo.",
     "desktop_notifications"         => "Notificaciones del escritorio",
     "browser_notifications"         => "Notificaciones del navegador",
 
@@ -372,5 +371,19 @@ return array(
     "success_join"                  => "Ahora eres parte de la organización :name.",
     "error_join"                    => "No se ha encontrado el código de invitación o ha caducado.",
     "verify_to_view_tickets"        => "Verifica todas las direcciones de correo electrónico adicionales o elimina las direcciones de correo electrónico no verificadas en el perfil de tu cuenta.",
+
+    /*
+     * 5.2.3
+     */
+    "display_notifications_desc"    => "El sistema te notificará cuando se creen nuevos tickets o respuestas o cuando inicien sesión otros operadores. Puedes elegir entre notificaciones del escritorio o notificaciones en el navegador (in-browser), o puedes deshabilitarlo por completo.",
+
+    /*
+     * 5.3.0
+     */
+    "email_verified"                => "Email Verified",
+    "registered_desc"               => "If the user has a password set and is able to login to the frontend.",
+    "new_operator_account_desc"     => "You can send a verification email to let the operator set up their own account or toggle to set a password for them below.",
+    "operator_set_password_desc"    => "Please enter a password below to finish setting up your operator account.",
+    "password_set_success"          => "Password set successfully!",
 
 );

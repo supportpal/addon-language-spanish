@@ -151,5 +151,11 @@ return array(
     "type_protected_desc"       => "Alterna para mostrar solo contenido de este tipo a usuarios registrados.",
     "article_feedback"          => "Valoración del artículo",
     "frontend_icon_desc"        => "Selecciona un icono regular <a href='https://fontawesome.com/icons' target='_blank'>FontAwesome</a> para mostrar en el front-end para tu tipo. También puedes buscar un icono personalizado que no esté incluido en la lista (empezando con 'fa-').",
+    "comment_deleted"           => "Comment deleted",
+
+    /*
+     * 5.3.0
+     */
+    "in_reply_to"               => "in reply to",
 
 );

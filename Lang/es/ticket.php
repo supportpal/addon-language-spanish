@@ -566,4 +566,11 @@ return array(
      */
     "block_user_desc"           => "El usuario no podrá abrir más tickets y el ticket se moverá a la papelera.",
 
+    /*
+     * 5.3.0
+     */
+    "reject_duplicate_emails"   => "Reject Duplicate Emails",
+    "reject_duplicate_emails_desc" => "Stop emails being imported more than once, detected based on the Message-ID header.",
+    "duplicate_email_detected"  => "Duplicate email that has already been imported.",
+
 );
