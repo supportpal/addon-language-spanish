@@ -380,10 +380,10 @@ return array(
     /*
      * 5.3.0
      */
-    "email_verified"                => "Email Verified",
-    "registered_desc"               => "If the user has a password set and is able to login to the frontend.",
-    "new_operator_account_desc"     => "You can send a verification email to let the operator set up their own account or toggle to set a password for them below.",
-    "operator_set_password_desc"    => "Please enter a password below to finish setting up your operator account.",
-    "password_set_success"          => "Password set successfully!",
+    "email_verified"                => "Correo electrónico verificado",
+    "registered_desc"               => "Si el usuario tiene una contraseña establecida y puede iniciar sesión en el frontend.",
+    "new_operator_account_desc"     => "Puedes enviar un correo electrónico de verificación para permitir que el operador configure su propia cuenta o establecer una contraseña a continuación.",
+    "operator_set_password_desc"    => "Introduce una contraseña a continuación para terminar de configurar tu cuenta de operador.",
+    "password_set_success"          => "¡Contraseña establecida correctamente!",
 
 );
