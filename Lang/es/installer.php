@@ -202,6 +202,6 @@ return array(
     /*
      * 5.3.0
      */
-    "check_file_permissions"    => "Checking file permissions...",
+    "check_file_permissions"    => "Comprobando permisos de archivo...",
 
 );
