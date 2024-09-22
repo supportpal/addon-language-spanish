@@ -569,8 +569,8 @@ return array(
     /*
      * 5.3.0
      */
-    "reject_duplicate_emails"   => "Reject Duplicate Emails",
-    "reject_duplicate_emails_desc" => "Stop emails being imported more than once, detected based on the Message-ID header.",
-    "duplicate_email_detected"  => "Duplicate email that has already been imported.",
+    "reject_duplicate_emails"   => "Rechazar correos duplicados",
+    "reject_duplicate_emails_desc" => "Impedir que los correos electrónicos se importen más de una vez, detectado en función ID del mensaje.",
+    "duplicate_email_detected"  => "Correo duplicado que ya se ha importado.",
 
 );
