@@ -257,14 +257,14 @@ return array(
     /*
      * 5.3.0
      */
-    "operator_password_set"             => "Set a password for their account.",
-    "password_reset_sent"               => "Reset password link sent to :rel.",
+    "operator_password_set"             => "Establecer una contraseña para su cuenta.",
+    "password_reset_sent"               => "Se ha enviado el enlace para restablecer la contraseña a :rel.",
 
     /*
      * 5.4.0
      */
-    "ticket_feedback_rating"            => "Rated ticket #:rel as :extra_rel1.", // Rated ticket #123 as 'general.good / general.bad / general.neutral'.
-    "ticket_feedback_saved"             => "Saved :extra_rel1 on ticket #:rel.", // Saved (lowercase ticket.feedback) on ticket #123
-    "selfservice_feedback_saved"        => "Saved :extra_rel1 on article :rel.", // Saved (lowercase ticket.feedback) on article 'Foo bar'
+    "ticket_feedback_rating"            => "Ticket #:rel calificado como :extra_rel1.", // Rated ticket #123 as 'general.good / general.bad / general.neutral'.
+    "ticket_feedback_saved"             => "Se ha guardado :extra_rel1 en el ticket #:rel.", // Saved (lowercase ticket.feedback) on ticket #123
+    "selfservice_feedback_saved"        => "Se ha guardado :extra_rel1 en el artículo :rel.", // Saved (lowercase ticket.feedback) on article 'Foo bar'
 
 );
