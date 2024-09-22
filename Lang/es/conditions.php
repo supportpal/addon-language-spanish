@@ -117,5 +117,5 @@ return array(
     /*
      * 5.3.0
      */
-    "user_registered"                   => "User registered",
+    "user_registered"                   => "Usuario registrado",
 );
