@@ -663,23 +663,23 @@ return array(
      * 5.3.0
      */
     "ticket_channel_2"          => "Nosotros ofrecemos una serie de canales por defecto. Puedes activar y configurar los canales de Facebook y Twitter para recopilar tickets generados a través de las redes sociales.",
-    "incoming_duplicate"        => "Incoming (Duplicate)",
+    "incoming_duplicate"        => "Recibidos (Duplicados)",
 
     /*
      * 5.4.0
      */
-    "email_method_overridden"   => "The email method has been overridden in the <a href=':link' target='_blank'>default brand settings</a>.",
-    "addon_not_found"           => "Add-on not found.",
-    "deactivating_addon"        => "Deactivating add-on...",
-    "addon_already_activated"   => "Add-on already activated.",
-    "addon_already_deactivated" => "Add-on already deactivated.",
-    "addon_cannot_deactivate"   => "Add-on cannot be deactivated.",
-    "addon_activation_failed"   => "Add-on activation failed, check the application log for more information.",
-    "addon_deactivation_failed" => "Add-on deactivation failed, check the application log for more information.",
-    "site_key"                  => "Site Key",
-    "secret_key"                => "Secret Key",
-    "turnstile_desc"            => "Please register a new Turnstile widget at <a target='_blank' href=\"https://developers.cloudflare.com/turnstile/get-started/\">Cloudflare</a>. Copy the site and secret key above.",
-    "hcaptcha_desc"             => "Please register at <a target='_blank' href=\"https://hcaptcha.com/\">hCaptcha</a>. Copy the site and secret key above.",
+    "email_method_overridden"   => "El método de correo electrónico se ha sobrescrito en los <a href=':link' target='_blank'>ajustes por defecto de la marca</a>.",
+    "addon_not_found"           => "No se ha encontrado el complemento.",
+    "deactivating_addon"        => "Desactivando complemento...",
+    "addon_already_activated"   => "Complemento ya activado",
+    "addon_already_deactivated" => "Complemento ya desactivado.",
+    "addon_cannot_deactivate"   => "El complemento no se puede desactivar.",
+    "addon_activation_failed"   => "Ha fallado la activación del complemento, comprueba el registro de la aplicación para obtener más información.",
+    "addon_deactivation_failed" => "Ha fallado la desactivación del complemento, comprueba el registro de la aplicación para obtener más información.",
+    "site_key"                  => "Clave del sitio web",
+    "secret_key"                => "Clave secreta",
+    "turnstile_desc"            => "Registra un nuevo widget Turnstile en <a target='_blank' href=\"https://developers.cloudflare.com/turnstile/get-started/\">Cloudflare</a>. Copia la clave del sitio web y la secreta anteriores.",
+    "hcaptcha_desc"             => "Registra un <a target='_blank' href=\"https://hcaptcha.com/\">hCaptcha</a>. Copia la clave del sitio web y la secreta anteriores.",
     "captcha_type_desc"         => "Selecciona el Captcha que se utilizará en el sistema. Te recomendamos que utilices el Google reCAPTCHA, el cual requiere configuración adicional.",
 
 );
