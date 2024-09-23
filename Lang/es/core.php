@@ -680,6 +680,6 @@ return array(
     "secret_key"                => "Clave secreta",
     "turnstile_desc"            => "Registra un nuevo widget Turnstile en <a target='_blank' href=\"https://developers.cloudflare.com/turnstile/get-started/\">Cloudflare</a>. Copia la clave del sitio web y la secreta anteriores.",
     "hcaptcha_desc"             => "Registra un <a target='_blank' href=\"https://hcaptcha.com/\">hCaptcha</a>. Copia la clave del sitio web y la secreta anteriores.",
-    "captcha_type_desc"         => "Selecciona el Captcha que se utilizará en el sistema. Te recomendamos que utilices el Google reCAPTCHA, el cual requiere configuración adicional.",
+    "captcha_type_desc"         => "Selecciona el Captcha que se utilizará en el sistema.",
 
 );
