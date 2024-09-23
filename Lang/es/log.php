@@ -254,4 +254,17 @@ return array(
     "background_job_deleted"            => "Se ha eliminado la tarea en segundo plano :rel.",
     "background_job_retried"            => "Se volvió a intentar la tarea en segundo plano :rel.",
 
+    /*
+     * 5.3.0
+     */
+    "operator_password_set"             => "Establecer una contraseña para su cuenta.",
+    "password_reset_sent"               => "Se ha enviado el enlace para restablecer la contraseña a :rel.",
+
+    /*
+     * 5.4.0
+     */
+    "ticket_feedback_rating"            => "Ticket #:rel calificado como :extra_rel1.", // Rated ticket #123 as 'general.good / general.bad / general.neutral'.
+    "ticket_feedback_saved"             => "Se ha guardado :extra_rel1 en el ticket #:rel.", // Saved (lowercase ticket.feedback) on ticket #123
+    "selfservice_feedback_saved"        => "Se ha guardado :extra_rel1 en el artículo :rel.", // Saved (lowercase ticket.feedback) on article 'Foo bar'
+
 );

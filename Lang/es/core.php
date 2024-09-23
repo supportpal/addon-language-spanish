@@ -173,7 +173,6 @@ return array(
     "schedule_task_cron"        => "Cron Job",
     "schedule_task_3"           => "Crea un Cron Job similar al ejemplo mostrado abajo en tu servidor para que las tareas programadas se ejecuten automáticamente.",
     "ticket_channel_desc"       => "Los canales de ticket son métodos de creación de ticket. Estos se pueden extender fácilmente para incluir tus propios canales, por ejemplo, tickets abiertos a través de Instagram.",
-    "ticket_channel_2"          => "Nosotros ofrecemos una serie de canales por defecto. Puedes activar y configurar los canales de Facebook y Twitter para recopilar tickets generados a través de las redes sociales.",
     "user_desc"                 => "Los usuarios que interactúan con tu sistema se muestran aquí. Puedes añadir, editar y eliminar usuarios como desees.",
     "organisation_desc"         => "Los usuarios se pueden asignar a organizaciones, permitiéndoles acceder a los tickets abiertos por otros usuarios dentro de su misma organización.",
     "operator_desc"             => "Otros empleados pueden ser añadidos como operadores aquí, además de administrar a qué departamentos están asignados.",
@@ -332,7 +331,6 @@ return array(
     "reprocess_email_desc"      => "Te recomendamos que revises lo que originalmente bloqueó el correo y que hagas los cambios necesarios antes de intentar reprocesarlo.",
     "email_blocked_desc"        => "Tras varios intentos no se puedo enviar el mensaje, por lo que deberá enviarse manualmente.",
     "captcha_type"              => "Tipo de Captcha",
-    "captcha_type_desc"         => "Selecciona el Captcha que se utilizará en el sistema. Te recomendamos que utilices el Google reCAPTCHA, el cual requiere configuración adicional.",
     "default_captcha"           => "Captcha por defecto",
     "recaptcha_site_key"        => "Clave del sitio web",
     "recaptcha_secret_key"      => "Clave secreta",
@@ -660,5 +658,28 @@ return array(
     "exception"                 => "Excepción",
     "data"                      => "Datos",
     "failed_background_jobs"    => "Una o más <a target='_blank' href=':link'>tareas en segundo plano</a> han fallado y necesitan atención manual",
+
+    /*
+     * 5.3.0
+     */
+    "ticket_channel_2"          => "Nosotros ofrecemos una serie de canales por defecto. Puedes activar y configurar los canales de Facebook y Twitter para recopilar tickets generados a través de las redes sociales.",
+    "incoming_duplicate"        => "Recibidos (Duplicados)",
+
+    /*
+     * 5.4.0
+     */
+    "email_method_overridden"   => "El método de correo electrónico se ha sobrescrito en los <a href=':link' target='_blank'>ajustes por defecto de la marca</a>.",
+    "addon_not_found"           => "No se ha encontrado el complemento.",
+    "deactivating_addon"        => "Desactivando complemento...",
+    "addon_already_activated"   => "Complemento ya activado",
+    "addon_already_deactivated" => "Complemento ya desactivado.",
+    "addon_cannot_deactivate"   => "El complemento no se puede desactivar.",
+    "addon_activation_failed"   => "Ha fallado la activación del complemento, comprueba el registro de la aplicación para obtener más información.",
+    "addon_deactivation_failed" => "Ha fallado la desactivación del complemento, comprueba el registro de la aplicación para obtener más información.",
+    "site_key"                  => "Clave del sitio web",
+    "secret_key"                => "Clave secreta",
+    "turnstile_desc"            => "Registra un nuevo widget Turnstile en <a target='_blank' href=\"https://developers.cloudflare.com/turnstile/get-started/\">Cloudflare</a>. Copia la clave del sitio web y la secreta anteriores.",
+    "hcaptcha_desc"             => "Registra un <a target='_blank' href=\"https://hcaptcha.com/\">hCaptcha</a>. Copia la clave del sitio web y la secreta anteriores.",
+    "captcha_type_desc"         => "Selecciona el Captcha que se utilizará en el sistema. Te recomendamos que utilices el Google reCAPTCHA, el cual requiere configuración adicional.",
 
 );
