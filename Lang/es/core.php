@@ -662,7 +662,7 @@ return array(
     /*
      * 5.3.0
      */
-    "ticket_channel_2"          => "Nosotros ofrecemos una serie de canales por defecto. Puedes activar y configurar los canales de Facebook y Twitter para recopilar tickets generados a través de las redes sociales.",
+    "ticket_channel_2"          => "Ofrecemos una serie de canales por defecto, canales adicionales y otros complementos que pueden instalarse desde el Marketplace de complementos.",
     "incoming_duplicate"        => "Recibidos (Duplicados)",
 
     /*
