@@ -45,8 +45,6 @@ return array(
     "twilio_api_details_desc"          => "Busca 'Claves API' en la consola. Crea una clave API, e introduce la clave y el secreto a continuación.",
     "twilio_api_secret"                => "Secreto de API",
     "twilio_number_verification"       => "Verificación del número",
-    "twilio_number_verification_desc"  => "Opcional: introduzca un SID de servicio de verificación para permitir la verificación de los números de teléfono de los usuarios. Esto se recomienda para evitar que los usuarios introduzcan cualquier número de teléfono - El servicio de <a target='_blank' href='https://www.twilio.com/verify'>verificación</a> de Twilio es de pago.",
-    "twilio_verify_sid"                => "Verificación SID",
 
     "twitter_api_key_secret"           => "Secreto de la clave API",
 
@@ -55,5 +53,13 @@ return array(
      */
     "twitter_documentation"            => "Lee nuestra documentación para configurar <a href=':link'>Twitter</a>.",
     "twitter_redirect_url"             => "La siguiente URL <strong>debe</strong> introducirse para la aplicación de Twitter 'Callback URL':",
+
+    /*
+     * 5.4.1
+     */
+    "twilio_verify_sid"                => "Verificación SID",
+    "twilio_number_verification_desc"  => "Opcional: introduzca un SID de servicio de verificación para permitir la verificación de los números de teléfono de los usuarios. Esto se recomienda para evitar que los usuarios introduzcan cualquier número de teléfono - El servicio de <a target='_blank' href='https://www.twilio.com/verify'>verificación</a> de Twilio es de pago.",
+    "twilio_verify_countries"          => "Verify Allowed Countries",
+    "twilio_verify_countries_desc"     => "Restrict phone number verification to specific countries, to reduce costs and the risk of abuse. Phone numbers belonging to countries outside of the permitted list can be manually marked as verified by staff.",
 
 );

@@ -28,7 +28,7 @@ jobs:
           tools: composer:v2, supportpal/language-tools
 
       - name: PHP Syntax Check
-        uses: overtrue/phplint@9.1
+        uses: overtrue/phplint@9.4
         with:
           path: .
           options: --exclude=vendor
