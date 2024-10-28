@@ -441,7 +441,7 @@ return array(
     "logo_desc"                 => "Cambia el logo por defecto para esta marca. El campo puede ser una ruta de acceso al directorio base (recomendamos que guardes el logo en resources/assets/folder) o una URL directa a la imagen.",
     "website_url"               => "URL de la página web",
     "website_url_desc"          => "Añade un link para volver a tu página web principal en el encabezado del portal de support.",
-    "back_to_website"           => "Volver a la página web",
+    "back_to_website"           => "Regresar al sitio web",
     "template"                  => "Plantilla",
     "how_can_we_help"           => "¿Cómo podemos ayudarte hoy?",
     "ticket_desc2"              => "La cuadrícula de los tickets se puede ordenar de acuerdo a tus preferencias y se puede filtrar como necesites.",
