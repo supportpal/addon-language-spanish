@@ -267,4 +267,10 @@ return array(
     "ticket_feedback_saved"             => "Se ha guardado :extra_rel1 en el ticket #:rel.", // Saved (lowercase ticket.feedback) on ticket #123
     "selfservice_feedback_saved"        => "Se ha guardado :extra_rel1 en el artículo :rel.", // Saved (lowercase ticket.feedback) on article 'Foo bar'
 
+    /*
+     * 5.5.0
+     */
+    "ticket_pinned_message"             => "Pinned :extra_rel1 on ticket #:rel.", // Pinned message (lowercase general.message) on ticket #123.
+    "ticket_unpinned_message"           => "Unpinned :extra_rel1 on ticket #:rel.", // Unpinned message (lowercase general.message) on ticket #123.
+
 );

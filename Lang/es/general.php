@@ -429,4 +429,9 @@ return array(
     "week"                      => "Semana|Semanas",
     "quarter"                   => "Trimestre|Trimestres",
 
+    /*
+     * 5.5.0
+     */
+    "mark_as_done"              => "Mark as Done",
+
 );

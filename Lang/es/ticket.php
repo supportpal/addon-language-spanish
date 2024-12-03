@@ -538,8 +538,6 @@ return array(
     "append_ip_address_api_desc" => "Añade la dirección IP del usuario al final de sus mensajes de ticket (requiere que se proporcionen los datos user_ip_address).",
     "check_spam"                => "Comprobar las reglas de spam",
     "check_spam_api_desc"       => "Bloquea los mensajes que coincidan con las reglas de spam.",
-    "enable_throttling"         => "Activar limitación",
-    "enable_throttling_api_desc" => "Limita el número de mensajes que un usuario puede publicar en un periodo de tiempo determinado. Consulta <a href='https://docs.supportpal.com/current/App+Configuration#Throttling' target='_blank'>la configuración de la limitación</a> para más información sobre cómo ajustar los límites.",
     "captcha_desc"              => "Cuándo debe mostrarse el captcha a los usuarios que abren nuevos tickets o utilizan la función de seguimiento de tickets.",
 
     /*
@@ -572,5 +570,22 @@ return array(
     "reject_duplicate_emails"   => "Rechazar correos duplicados",
     "reject_duplicate_emails_desc" => "Impedir que los correos electrónicos se importen más de una vez, detectado en función ID del mensaje.",
     "duplicate_email_detected"  => "Correo duplicado que ya se ha importado.",
+
+    /*
+     * 5.5.0
+     */
+    "rate_limiting"             => "Rate Limiting",
+    "max_requests"              => "Max Requests",
+    "max_requests_desc"         => "Set the maximum number of requests before a user is throttled.",
+    "decay_time"                => "Decay Time",
+    "decay_time_desc"           => "The number of minutes until the available attempts are reset.",
+    "exclude_addresses"         => "Exclude Addresses",
+    "exclude_addresses_desc"    => "A list of email addresses which are excluded from rate limits.",
+    "enable_throttling"         => "Activar limitación",
+    "enable_throttling_api_desc" => "Limita el número de mensajes que un usuario puede publicar en un periodo de tiempo determinado. Consulta <a href='https://docs.supportpal.com/current/App+Configuration#Throttling' target='_blank'>la configuración de la limitación</a> para más información sobre cómo ajustar los límites.",
+    "close_without_notify"      => "Close (without notification)",
+    "lock"                      => "Lock",
+    "pin"                       => "Pin",
+    "unpin"                     => "Unpin",
 
 );
