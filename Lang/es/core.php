@@ -683,6 +683,7 @@ return array(
     /*
      * 5.5.0
      */
+    "ticket_channel_2"          => "Ofrecemos una serie de ticket canales por defecto. Canales adicionales y otros complementos que pueden instalarse desde el Marketplace de complementos.",
     "selected_country_aria_label" => "País seleccionado",
     "no_country_selected"       => "Ningún país seleccionado",
     "country_list_aria_label"   => "Lista de países",
