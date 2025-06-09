@@ -291,11 +291,6 @@ return array(
     "type_in_tags"              => "Escribir en etiquetas",
 
     /*
-     * 2.0.1
-     */
-    "allowed_files_desc"        => "Una lista de extensiones de archivo, separados por la barra vertical | que se permiten como archivos adjuntos. Por ejemplo: txt|png|jpg. Para permitir todos los archivos adjuntos, introduce: ?.*",
-
-    /*
      * 2.0.2
      */
     "no_operator_groups"        => "No se han encontrado grupos de operadores. Haz click <a href=':route'>aquí</a> para crear uno.",
@@ -538,8 +533,6 @@ return array(
     "append_ip_address_api_desc" => "Añade la dirección IP del usuario al final de sus mensajes de ticket (requiere que se proporcionen los datos user_ip_address).",
     "check_spam"                => "Comprobar las reglas de spam",
     "check_spam_api_desc"       => "Bloquea los mensajes que coincidan con las reglas de spam.",
-    "enable_throttling"         => "Activar limitación",
-    "enable_throttling_api_desc" => "Limita el número de mensajes que un usuario puede publicar en un periodo de tiempo determinado. Consulta <a href='https://docs.supportpal.com/current/App+Configuration#Throttling' target='_blank'>la configuración de la limitación</a> para más información sobre cómo ajustar los límites.",
     "captcha_desc"              => "Cuándo debe mostrarse el captcha a los usuarios que abren nuevos tickets o utilizan la función de seguimiento de tickets.",
 
     /*
@@ -572,5 +565,53 @@ return array(
     "reject_duplicate_emails"   => "Rechazar correos duplicados",
     "reject_duplicate_emails_desc" => "Impedir que los correos electrónicos se importen más de una vez, detectado en función ID del mensaje.",
     "duplicate_email_detected"  => "Correo duplicado que ya se ha importado.",
+
+    /*
+     * 5.5.0
+     */
+    "rate_limiting"             => "Límite de tasa",
+    "max_requests"              => "Máximo de solicitudes",
+    "max_requests_desc"         => "Establece el número máximo de solicitudes antes de que se limite a un usuario.",
+    "decay_time"                => "Tiempo de restablecimiento",
+    "decay_time_desc"           => "Número de minutos hasta que se restablezcan los intentos disponibles.",
+    "exclude_addresses"         => "Excluir direcciones",
+    "exclude_addresses_desc"    => "Una lista de direcciones de correo electrónico que están excluidas de los límites de tasa.",
+    "enable_throttling"         => "Activar limitación",
+    "enable_throttling_api_desc" => "Limita el número de mensajes que un usuario puede publicar en un periodo de tiempo determinado. Consulta <a href='https://docs.supportpal.com/current/App+Configuration#Throttling' target='_blank'>la configuración de la limitación</a> para más información sobre cómo ajustar los límites.",
+    "close_without_notify"      => "Cerrar (sin notificación)",
+    "lock"                      => "Bloquear",
+    "pin"                       => "Fijar",
+    "unpin"                     => "Desfijar",
+
+    /*
+     * 5.6.0
+     */
+    "copy_to_new_filter"        => "Copiar a nuevo filtro",
+    "alias_support"             => "Ayuda de alias",
+    "alias_support_desc"        => "La ayuda de alias analiza las direcciones de los destinatarios de los correos entrantes para determinar en qué departamento debe abrirse el correo. Si se desactiva, todos los correos se abrirán en el departamento en el que se recuperaron, independientemente de la dirección del destinatario.",
+
+    /*
+     * 5.7.0
+     */
+    "run_as_operator"           => "Ejecutar como",
+    "run_as_operator_desc"      => "Ejecuta las siguientes acciones como el operador seleccionado: \":actions\"",
+    "use_ticket_print_view"     => "Utiliza la vista de impresión dedicada para imprimir este ticket. Puedes acceder a ella haciendo clic en la opción 'Imprimir' dentro del ticket.",
+    "save_feedback"             => "Guardar valoración",
+    "ticket_opened_notification" => "Nuevo ticket abierto",
+    "ticket_opened_notification_desc" => "Te notifica cuando se abre un nuevo ticket, ya sea de un usuario o interno.",
+    "user_reply_notification"   => "Respuesta de usuario al ticket publicada",
+    "user_reply_notification_desc" => "Te notifica cuando un usuario responde a un ticket existente.",
+    "operator_reply_notification" => "Respuesta de operador al ticket publicada",
+    "operator_reply_notification_desc" => "Te notifica cuando otro operador responde a un ticket.",
+    "operator_note_notification" => "Nota de operador al ticket publicada",
+    "operator_note_notification_desc" => "Te notifica cuando otro operador añade una nota a un ticket.",
+    "assigned_notification"     => "Asignado al ticket",
+    "assigned_notification_desc" => "Te notifica cuando se te asigna un ticket.",
+    "department_changed_notification" => "Departamento cambiado",
+    "department_changed_notification_desc" => "Te notifica cuando un ticket cambia de departamento.",
+    "mention_notification"       => "Mención",
+    "mention_notification_desc" => "Te notifica cuando se te menciona en un ticket.",
+    "mark_resolved_and_post_reply" => "arcar como resuelto y publicar respuesta",
+    "allowed_files_desc"        => "Una lista de extensiones de archivo, separados por la barra vertical | que se permiten como archivos adjuntos. Por ejemplo: txt|png|jpg. Para permitir todos los archivos adjuntos, introduce: ?.*",
 
 );

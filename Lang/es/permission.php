@@ -137,4 +137,11 @@ return array(
      * 5.1.0
      */
     "manage_report"     => "Administrar informes",
+
+    /*
+     * 5.7.0
+     */
+    "operatornotification" => "Administrar las notificaciones del operador",
+    "replytemplate"     => "Administrar plantillas de respuesta propias",
+
 );

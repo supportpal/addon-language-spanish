@@ -26,7 +26,6 @@ return array(
     /*
      * 2.2.0
      */
-    "close_and_lock_ticket"     => "Cerrar y bloquear ticket",
     "unlock_ticket"             => "Desbloquear ticket",
     "update_sla_plan"           => "Actualizar plan ANS",
     "update_subject"            => "Actualizar asunto",
@@ -82,5 +81,12 @@ return array(
     "clear_reply_due_time"      => "Borrar el plazo de respuesta",
     "pause_due_times"           => "Pausar plazos",
     "unpause_due_times"         => "Reanudar plazos",
+
+    /*
+     * 5.5.0
+     */
+    "close_ticket"              => "Cerrar ticket",
+    "lock_ticket"               => "Bloquear ticket",
+    "notify_user"               => "Notificar usuario",
 
 );

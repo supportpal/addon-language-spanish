@@ -48,4 +48,9 @@ return array(
      */
     "unlicensed"        => "Sin licencia",
 
+    /*
+     * 5.5.0
+     */
+    "key_updated"       => "Clave de licencia actualizada correctamente.",
+
 );

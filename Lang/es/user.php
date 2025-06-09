@@ -86,9 +86,6 @@ return array(
 
     "operator_details"              => "Detalles del operador",
 
-    "email_notifications"           => "Notificaciones de correo",
-    "email_notifications_desc"      => "Las notificaciones de correo que se recibirán del sistema.",
-
     "enable_ldap"                   => "Permitir inicio de sesión LDAP",
     "enable_ldap_desc"              => "Si utilizas LDAP, puedes activarlo para inicio de sesión del operador. Después de activarlo, dirígete a la página de ajustes de cuentas LDAP para configurarlo.",
     "user_reg_enabled"              => "Registro del usuario activado",
@@ -132,7 +129,6 @@ return array(
     "two_fa_code"                   => "Código 2FA",
     "two_fa_secret"                 => "Secreto 2FA",
     "two_fa_secret_desc"            => "Por favor, almacena esto en algún lugar seguro ya que lo necesitarás para re-añadir la cuenta autenticadora a tu teléfono si perdieras el acceso.",
-    "display_notifications"         => "Mostrar notificaciones",
     "desktop_notifications"         => "Notificaciones del escritorio",
     "browser_notifications"         => "Notificaciones del navegador",
 
@@ -373,11 +369,6 @@ return array(
     "verify_to_view_tickets"        => "Verifica todas las direcciones de correo electrónico adicionales o elimina las direcciones de correo electrónico no verificadas en el perfil de tu cuenta.",
 
     /*
-     * 5.2.3
-     */
-    "display_notifications_desc"    => "El sistema te notificará cuando se creen nuevos tickets o respuestas o cuando inicien sesión otros operadores. Puedes elegir entre notificaciones del escritorio o notificaciones en el navegador (in-browser), o puedes deshabilitarlo por completo.",
-
-    /*
      * 5.3.0
      */
     "email_verified"                => "Correo electrónico verificado",
@@ -385,5 +376,37 @@ return array(
     "new_operator_account_desc"     => "Puedes enviar un correo electrónico de verificación para permitir que el operador configure su propia cuenta o establecer una contraseña a continuación.",
     "operator_set_password_desc"    => "Introduce una contraseña a continuación para terminar de configurar tu cuenta de operador.",
     "password_set_success"          => "¡Contraseña establecida correctamente!",
+
+    /*
+     * 5.7.0
+     */
+    "reply_template_cursor_position" => "Utiliza la opción 'Establecer posición del cursor' en el editor para indicar dónde se colocará el cursor cuando el usuario abra el editor para responder a un ticket.",
+    "system_bot_desc"               => "Esta es una cuenta de bot del sistema utilizada para acciones automatizadas. Solo puedes editar su nombre y avatar.",
+    "notification_settings"         => "Configuración de notificaciones",
+    "operator_notifications"        => "Notificaciones del operador",
+    "operator_notifications_desc"   => "Actualiza las preferencias de notificación para la cuenta del operador.",
+    "default_department_subscription" => "Suscripción predeterminada del departamento",
+    "default_department_subscription_desc" => "Define la suscripción de notificación predeterminada para determinar cuándo se envían notificaciones en eventos de tickets. Esta suscripción se aplicará a cualquier departamento que no tenga una configuración específica.",
+    "department_subscriptions"      => "Suscripciones del departamento",
+    "department_subscriptions_desc" => "Personaliza la suscripción de notificaciones para cada departamento.",
+    "subscription_type"             => "Tipo de suscripción",
+    "subscription_default"          => "Predeterminada",
+    "subscription_default_desc"     => "Usar la suscripción predeterminada del departamento para este departamento.",
+    "subscription_all_activity"     => "Toda la actividad",
+    "subscription_all_activity_desc" => "Recibir notificaciones sobre toda la actividad en este departamento.",
+    "subscription_unassigned_and_assigned" => "Sin asignar y asignado",
+    "subscription_unassigned_and_assigned_desc" => "Recibir notificaciones de este departamento cuando un ticket no tiene personas asignadas o cuando se te asigna. También se enviarán notificaciones si estás siguiendo el ticket o se te menciona con @.",
+    "subscription_assigned_only"    => "Solo si está asignado",
+    "subscription_assigned_only_desc" => "Recibir notificaciones de este departamento solo cuando estés asignado al ticket. También se enviarán notificaciones si estás siguiendo el ticket o se te menciona con @.",
+    "subscription_ignore"           => "Ignorar",
+    "subscription_ignore_desc"      => "No recibir notificaciones de ninguna actividad en este departamento, excepto si estás siguiendo el ticket o se te menciona con @.",
+    "configure_on_operator_notifications" => "Las suscripciones de notificaciones específicas por departamento se pueden configurar en la página de <a href=':route' target='_blank'>notificaciones del operador</a>.",
+    "notification_channel_email"    => "Correo electrónico",
+    "notification_channel_browser"  => "Navegador",
+    "browser_notifications_desc"    => "El sistema te notificará sobre ciertos eventos a través del navegador. Puedes elegir entre notificaciones de escritorio, notificaciones dentro de la aplicación o desactivarlas por completo.",
+    "failed_login_notification"     => "Inicio de sesión fallido del operador",
+    "failed_login_notification_desc" => "Te notifica cuando alguien no logra iniciar sesión en el panel del operador o se bloquea su IP tras varios intentos fallidos.",
+    "notifications_desc"            => "Selecciona los canales en los que deseas recibir notificaciones sobre eventos del sistema, o desactiva notificaciones individuales por completo.",
+    "in_app_notifications"          => "Notificaciones dentro de la aplicación",
 
 );

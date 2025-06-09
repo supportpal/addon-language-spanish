@@ -158,4 +158,10 @@ return array(
      */
     "in_reply_to"               => "en respuesta a",
 
+    /*
+     * 5.7.0
+     */
+    "comment_notification"      => "Nuevo comentario publicado",
+    "comment_notification_desc" => "Te notifica cuando se publica un nuevo comentario en un artículo de autoservicio.",
+
 );

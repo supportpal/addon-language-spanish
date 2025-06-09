@@ -369,7 +369,6 @@ return array(
     "multi_ip"                  => "Asistencia multi-IP",
     "multi_ip_desc"             => "Permite asociar SupportPal a más de una IP interna/externa.",
     "purchase"                  => "Comprar",
-    "ticket_number_missing"     => "Para tickets relacionados con los correos, el campo de combinación {{ ticket.number }} se debe exponer en el asunto del correo e incluirse entre <em>[#{{ ticket.number }}]</em> o <em>(#{{ ticket.number }})</em> para poder redirigir las respuestas al ticket correcto. Si te gustaría eliminar el número del ticket, rogamos consideres habilitar <a href='https://docs.supportpal.com/current/Email+Channels#SubAddressConfiguration' target='_blank'>sub-direcciones de correo electrónico</a>.",
 
     /*
      * 2.5.0
@@ -662,7 +661,6 @@ return array(
     /*
      * 5.3.0
      */
-    "ticket_channel_2"          => "Ofrecemos una serie de canales por defecto, canales adicionales y otros complementos que pueden instalarse desde el Marketplace de complementos.",
     "incoming_duplicate"        => "Recibidos (Duplicados)",
 
     /*
@@ -682,4 +680,86 @@ return array(
     "hcaptcha_desc"             => "Registra un <a target='_blank' href=\"https://hcaptcha.com/\">hCaptcha</a>. Copia la clave del sitio web y la secreta anteriores.",
     "captcha_type_desc"         => "Selecciona el Captcha que se utilizará en el sistema.",
 
+    /*
+     * 5.5.0
+     */
+    "ticket_channel_2"          => "Ofrecemos una serie de ticket canales por defecto. Canales adicionales y otros complementos que pueden instalarse desde el Marketplace de complementos.",
+    "selected_country_aria_label" => "País seleccionado",
+    "no_country_selected"       => "Ningún país seleccionado",
+    "country_list_aria_label"   => "Lista de países",
+    "zero_search_results"       => "No se han encontrado resultados",
+    "one_search_result"         => "1 resultado encontrado",
+    "multiple_search_results"   => "\${count} resultados encontrados", // ${count} is a JS variable and should not be changed.
+    "advanced"                  => "Avanzado",
+    "table"                     => "Tabla",
+    "cell"                      => "Celda",
+    "cell_properties"           => "Propiedades de la celda",
+    "merge_cells"               => "Combinar celdas",
+    "split_cell"                => "Dividir celda",
+    "row"                       => "Fila",
+    "inset_row_before"          => "Insertar fila encima",
+    "inset_row_after"           => "Insertar fila debajo",
+    "delete_row"                => "Eliminar fila",
+    "row_properties"            => "Propiedades de la fila",
+    "cut_row"                   => "Cortar fila",
+    "copy_row"                  => "Copiar fila",
+    "paste_row_before"          => "Pegar fila encima",
+    "paste_row_after"           => "Pegar fila debajo",
+    "column"                    => "Columna",
+    "insert_column_before"      => "Insertar columna a la izquierda",
+    "insert_column_after"       => "Insertar columna a la derecha",
+    "delete_column"             => "Eliminar columna",
+    "cut_column"                => "Cortar columna",
+    "copy_column"               => "Copiar columna",
+    "paste_column_before"       => "Pegar columna a la izquierda",
+    "paste_column_after"        => "Pegar columna a la derecha",
+    "table_properties"          => "Propiedades de la tabla",
+    "delete_table"              => "Eliminar tabla",
+    "width"                     => "Ancho",
+    "height"                    => "Alto",
+    "cell_spacing"              => "Espaciado entre celdas",
+    "cell_padding"              => "Relleno de celda",
+    "border_width"              => "Grosor del borde",
+    "caption"                   => "Título",
+    "show_caption"              => "Mostrar título",
+    "alignment"                 => "Alineación",
+    "border_style"              => "Estilo del borde",
+    "border_colour"             => "Color del borde",
+    "cell_type"                 => "Tipo de celda",
+    "scope"                     => "Ámbito",
+    "horizontal_align"          => "Alineación horizontal",
+    "vertical_align"            => "Alineación vertical",
+    "header_cell"               => "Celda de encabezado",
+    "row_group"                 => "Grupo de filas",
+    "column_group"              => "Grupo de columnas",
+    "left"                      => "Izquierda",
+    "center"                    => "Centrado",
+    "right"                     => "Derecha",
+    "top"                       => "Arriba",
+    "middle"                    => "Centro",
+    "bottom"                    => "Abajo",
+    "anchor"                    => "Ancla",
+    "example"                   => "Ejemplo",
+
+    /*
+     * 5.6.0
+     */
+    "email_template_enabled_desc" => "Al desactivar la plantilla de correo electrónico, se impedirá el envío de notificaciones que utilicen esta plantilla.",
+    "template_disabled"         => "Plantilla desactivada",
+    "reset_email_template"      => "Esto actualizará el editor con el contenido predeterminado de la plantilla de correo electrónico. Los cambios realizados anteriormente se perderán una vez guardada la plantilla de correo electrónico.",
+
+    /*
+     * 5.7.0
+     */
+    "cursor_position"           => "Posición del cursor",
+    "set_cursor_position"       => "Establecer la posición del cursor",
+    "private_message_notification" => "Nuevo mensaje privado del operador",
+    "private_message_notification_desc" => "Te notifica cuando recibes correspondencia de otro operador por mensaje privado.",
+
+    /*
+     * 5.7.3
+     */
+    "solid"                     => "Sólido",
+    "dashed"                    => "Discontinuo",
+    "dotted"                    => "Punteado",
 );

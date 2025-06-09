@@ -168,4 +168,9 @@ return array(
     "lock_timeout"          => "Tiempo de expiración de bloqueo",
     "lock_timeout_desc"     => "El servidor está ocupado procesando otras solicitudes. Por favor, inténtalo de nuevo.",
 
+    /*
+     * 5.4.1
+     */
+    "throttle_error"        => "Demasiados intentos. Inténtalo de nuevo :in_time." // :in_time becomes in 1 minute, etc
+
 );

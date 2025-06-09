@@ -429,4 +429,15 @@ return array(
     "week"                      => "Semana|Semanas",
     "quarter"                   => "Trimestre|Trimestres",
 
+    /*
+     * 5.5.0
+     */
+    "mark_as_done"              => "Marcar como hecho",
+
+    /*
+     * 5.7.0
+     */
+    "bot"                       => "Bot|Bots",
+    "allow_all"                 => "Permitir todos",
+
 );

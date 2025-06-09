@@ -165,4 +165,9 @@ return array(
     "total_tickets_canned_responses_used" => "Total de tickets con respuestas predefinidas utilizadas",
     "operators_most_used_responses"     => "Operadores con el mayor número de respuestas predefinidas utilizadas",
 
+    /*
+     * 5.7.0
+     */
+    "group_by"                          => "Agrupar por",
+
 );
