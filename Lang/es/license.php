@@ -51,6 +51,6 @@ return array(
     /*
      * 5.5.0
      */
-    "key_updated"       => "License key updated successfully.",
+    "key_updated"       => "Clave de licencia actualizada correctamente.",
 
 );

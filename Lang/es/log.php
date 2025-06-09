@@ -270,12 +270,12 @@ return array(
     /*
      * 5.5.0
      */
-    "ticket_pinned_message"             => "Pinned :extra_rel1 on ticket #:rel.", // Pinned message (lowercase general.message) on ticket #123.
-    "ticket_unpinned_message"           => "Unpinned :extra_rel1 on ticket #:rel.", // Unpinned message (lowercase general.message) on ticket #123.
+    "ticket_pinned_message"             => ":extra_rel1 fijado en el ticket #:rel.", // Pinned message (lowercase general.message) on ticket #123.
+    "ticket_unpinned_message"           => ":extra_rel1 desfijado en el ticket #:rel.", // Unpinned message (lowercase general.message) on ticket #123.
 
     /*
      * 5.7.0
      */
-    "operator_notifications_updated"    => "Updated :rel's notification preferences.", // Updated Joe Blog's notification preferences.
+    "operator_notifications_updated"    => "Se han actualizado las preferencias de notificaciones de :rel", // Updated Joe Blog's notification preferences.
 
 );

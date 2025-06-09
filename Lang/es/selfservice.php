@@ -161,7 +161,7 @@ return array(
     /*
      * 5.7.0
      */
-    "comment_notification"      => "New Comment Posted",
-    "comment_notification_desc" => "Notifies you when a new comment is posted on a self-service article.",
+    "comment_notification"      => "Nuevo comentario publicado",
+    "comment_notification_desc" => "Te notifica cuando se publica un nuevo comentario en un artículo de autoservicio.",
 
 );

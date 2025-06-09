@@ -59,22 +59,22 @@ return array(
      */
     "twilio_verify_sid"                => "Verificación SID",
     "twilio_number_verification_desc"  => "Opcional: introduzca un SID de servicio de verificación para permitir la verificación de los números de teléfono de los usuarios. Esto se recomienda para evitar que los usuarios introduzcan cualquier número de teléfono - El servicio de <a target='_blank' href='https://www.twilio.com/verify'>verificación</a> de Twilio es de pago.",
-    "twilio_verify_countries"          => "Verify Allowed Countries",
-    "twilio_verify_countries_desc"     => "Restrict phone number verification to specific countries, to reduce costs and the risk of abuse. Phone numbers belonging to countries outside of the permitted list can be manually marked as verified by staff.",
+    "twilio_verify_countries"          => "Verificar países permitidos",
+    "twilio_verify_countries_desc"     => "Restringe la verificación de números de teléfono a países específicos para reducir costos y el riesgo de uso indebido. Los números de teléfono pertenecientes a países fuera de la lista permitida pueden marcarse manualmente como verificados por el personal.",
 
     /*
      * 5.5.0
      */
-    "algolia_frontend_search_rate_limit" => "Frontend Search Rate Limiting",
-    "algolia_max_daily"                => "Daily Max Requests",
-    "algolia_max_daily_desc"           => "The maximum number of API calls that can be made to Algolia from the frontend.",
-    "algolia_max_min"                  => "Max Requests Per Minute",
-    "algolia_max_min_desc"             => "The maximum number of API calls that can be made to Algolia from the frontend, per authenticated user / IP address.",
+    "algolia_frontend_search_rate_limit" => "Límite de búsqueda en frontend",
+    "algolia_max_daily"                => "Máximo diario de solicitudes",
+    "algolia_max_daily_desc"           => "Número máximo de llamadas a la API que se pueden realizar a Algolia desde el frontend por día.",
+    "algolia_max_min"                  => "Máximo de solicitudes por minuto",
+    "algolia_max_min_desc"             => "Número máximo de llamadas a la API que se pueden realizar a Algolia desde el frontend, por usuario autenticado o dirección IP.",
 
     /*
      * 5.7.0
      */
-    "microsoft_tenant_id"               => "Tenant ID",
-    "microsoft_tenant_id_desc"          => "If you are required to use a single tenant for supported account types, enter the tenant ID; otherwise, leave this field blank. The tenant ID can be found in the Microsoft Entra Identity overview.",
+    "microsoft_tenant_id"               => "ID de inquilino (Tenant ID)",
+    "microsoft_tenant_id_desc"          => "Si se requiere el uso de un único inquilino para los tipos de cuenta compatibles, introduce el ID de inquilino (tenant ID); de lo contrario, deja este campo en blanco. Puedes encontrar el tenant ID en el Microsoft Entra Identity overview.",
 
 );

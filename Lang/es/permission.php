@@ -141,7 +141,7 @@ return array(
     /*
      * 5.7.0
      */
-    "operatornotification" => "Manage Operator Notifications",
-    "replytemplate"     => "Manage Own Reply Templates",
+    "operatornotification" => "Administrar las notificaciones del operador",
+    "replytemplate"     => "Administrar plantillas de respuesta propias",
 
 );

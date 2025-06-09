@@ -171,6 +171,6 @@ return array(
     /*
      * 5.4.1
      */
-    "throttle_error"        => "Too many attempts, please try again :in_time." // :in_time becomes in 1 minute, etc
+    "throttle_error"        => "Demasiados intentos. Inténtalo de nuevo :in_time." // :in_time becomes in 1 minute, etc
 
 );

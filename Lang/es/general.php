@@ -432,12 +432,12 @@ return array(
     /*
      * 5.5.0
      */
-    "mark_as_done"              => "Mark as Done",
+    "mark_as_done"              => "Marcar como hecho",
 
     /*
      * 5.7.0
      */
     "bot"                       => "Bot|Bots",
-    "allow_all"                 => "Allow All",
+    "allow_all"                 => "Permitir todos",
 
 );
