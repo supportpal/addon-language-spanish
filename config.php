@@ -99,6 +99,6 @@ return [
     |
     */
 
-    'supports' => '>=5.2',
+    'supports' => '>=5.7',
 
 ];
