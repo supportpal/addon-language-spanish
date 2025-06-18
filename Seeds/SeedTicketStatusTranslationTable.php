@@ -23,7 +23,7 @@ class SeedTicketStatusTranslationTable extends Seeder
     private function createTranslation(string $name, string $translation): void
     {
         $status = DB::table('ticket_status')->where('name', '=', $name)->orderBy('id')->first();
-        if ($status === null) {
+        if ($status === null || ! isset($status->id)) {
             return;
         }
 

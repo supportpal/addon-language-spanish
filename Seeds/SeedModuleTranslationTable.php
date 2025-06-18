@@ -24,7 +24,7 @@ class SeedModuleTranslationTable extends Seeder
     private function createModuleTranslation(string $slug, string $translation): void
     {
         $module = DB::table('module')->where('slug', '=', $slug)->first();
-        if ($module === null) {
+        if ($module === null || ! isset($module->id)) {
             return;
         }
 

@@ -18,7 +18,7 @@ class SeedUserGroupTranslationTable extends Seeder
             ->where('administrator', '=', 1)
             ->orderBy('id')
             ->first();
-        if ($group === null) {
+        if ($group === null || ! isset($group->id)) {
             return;
         }
 

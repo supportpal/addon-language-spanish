@@ -29,7 +29,7 @@ class SeedDepartmentTranslationTable extends Seeder
     private function createTranslation(string $name, array $translation): void
     {
         $record = DB::table('department')->where('name', '=', $name)->orderBy('id')->first();
-        if ($record === null) {
+        if ($record === null || ! isset($record->id)) {
             return;
         }
 

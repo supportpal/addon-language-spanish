@@ -23,7 +23,7 @@ class SeedTicketPriorityTranslationTable extends Seeder
     private function createTranslation(string $name, string $translation): void
     {
         $priority = DB::table('ticket_priority')->where('name', '=', $name)->orderBy('id')->first();
-        if ($priority === null) {
+        if ($priority === null || ! isset($priority->id)) {
             return;
         }
 

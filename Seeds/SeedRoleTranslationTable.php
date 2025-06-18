@@ -15,7 +15,7 @@ class SeedRoleTranslationTable extends Seeder
     public function run()
     {
         $role = DB::table('role')->where('slug', '=', 'administrator')->orderBy('id')->first();
-        if ($role === null) {
+        if ($role === null || ! isset($role->id)) {
             return;
         }
 

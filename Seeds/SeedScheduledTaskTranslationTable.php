@@ -98,7 +98,7 @@ class SeedScheduledTaskTranslationTable extends Seeder
     private function createTranslation(string $name, array $translation): void
     {
         $record = DB::table('scheduled_task')->where('name', '=', $name)->orderBy('id')->first();
-        if ($record === null) {
+        if ($record === null || ! isset($record->id)) {
             return;
         }
 
