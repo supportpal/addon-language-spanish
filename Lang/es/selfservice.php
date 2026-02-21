@@ -33,7 +33,6 @@ return array(
     "excerpt"                   => "Extracto",
     "associate_tag"             => "Asociar artículo con una etiqueta...",
     "associate_category"        => "Asociar artículo con una categoría...",
-    "published_desc"            => "Si el artículo puede verse públicamente. Si no está publicado, todavía podría verse a través de una URL directa siempre que una de las categorías sea pública.",
     "registered_users_desc"     => "Alterna para mostrar el artículo solo a usuarios registrados.",
 
     "comment_by"                => "Comentario de",
@@ -163,5 +162,11 @@ return array(
      */
     "comment_notification"      => "Nuevo comentario publicado",
     "comment_notification_desc" => "Te notifica cuando se publica un nuevo comentario en un artículo de autoservicio.",
+
+    /*
+     * 5.7.5
+     */
+    "published_desc"            => "Si el artículo puede verse públicamente. Si no está publicado, todavía podría verse a través de una URL directa siempre que una de las categorías sea pública.",
+    "not_published"             => "Not Published",
 
 );
