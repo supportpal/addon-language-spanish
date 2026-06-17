@@ -3,7 +3,7 @@
 namespace Addons\Languages\Spanish\Seeds;
 
 use App\Modules\Core\Controllers\Database\Seed\Seeder;
-use DB;
+use Illuminate\Support\Facades\DB;
 
 use function array_merge;
 use function file_get_contents;
