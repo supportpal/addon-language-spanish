@@ -97,7 +97,6 @@ return array(
     "incoming_spam"             => "Recibidos (Rechazados - Spam)",
     "incoming_throttled"        => "Recibidos (Rechazados - Limitados)",
     "email_subject"             => "Asunto del correo",
-    "twig_html_warning"         => "No se permite Twig dentro de etiquetas o atributos HTML y será automáticamente eliminado al guardar.",
 
     // Modules
     "modules"                   => "Sección|Secciones",
@@ -210,7 +209,6 @@ return array(
     "time_format"               => "Formato de hora",
     "time_format_desc"          => "El formato de hora que se usa globalmente.",
     "simpleauth_key"            => "Clave de SimpleAuth",
-    "simpleauth_key_desc"       => "La clave para nuestra opción de inicio de sesión, mínimo 16 caracteres.",
     "simpleauth_operators"      => "Permitir para operadores",
     "base_url"                  => "URL del sistema",
     "base_url_desc"             => "Introduce la dirección completa de la web de tu instalación, utilizada para generar las URLs enviadas a los usuarios.",
@@ -236,7 +234,6 @@ return array(
     "email_no_body"             => "Error al identificar el cuerpo del mensaje del correo electrónico.",
     "email_runtime_error"       => "Se ha producido un error de ejecución al crear el ticket/la respuesta.",
     "email_reply_disabled"      => "Las respuestas al correo del usuario han sido desactivadas para este departamento.",
-    "email_throttled"           => "Demasiados correos entrantes del usuario. El límite son :max_requests correos cada :decay_time minutos.",
 
     /*
      * 2.1.0
@@ -373,7 +370,6 @@ return array(
     /*
      * 2.5.0
      */
-    "debug_mode_desc"           => "Habilita el modo de depuración para mostrar errores. Utilízalo solo para depuración o instruído por asistencia. De otra manera, los errores y otros mensajes de registro útiles se almacenan en los registros de la aplicación, y se pueden descargar en Utilidades -> Registros -> Archivos de registro.",
     "record_trash_relations"    => "Los registros se moverán a la papelera y serán eliminados permanentemente después de :number días junto con toda la información relacionada: :relations. Esto tendrá un impacto en los informes.",
     "uninstall_plugable_warning" => "Al desinstalar el :plugable se eliminarán todos los archivos y la información asociados. En su lugar, recomendamos desactivar el :plugable.",
     "web_settings_desc"         => "Los ajustes del canal de la web se aplican en el frontend. Por defecto, cualquier persona que conozca una URL de ticket única puede acceder a los tickets. Puedes desactivar esto y solicitar que los usuarios inicien sesión antes de que puedan acceder a la información del ticket.",
@@ -574,7 +570,6 @@ return array(
     "file_not_found"            => "El archivo ':path' no se ha encontrado.",
     "file_not_executable"       => "El archivo ':path' no se puede ejecutar.",
     "dependency_resolution"     => "No se puede ejecutar el mantenimiento del sistema.",
-    "debug_mode_warning"        => "El modo de depuración sólo debe utilizarse temporalmente.",
     "custom_colour"             => "Color personalizado",
     "remove_colour"             => "Eliminar color",
     "background_colour"         => "Color de fondo",
@@ -689,7 +684,7 @@ return array(
     "country_list_aria_label"   => "Lista de países",
     "zero_search_results"       => "No se han encontrado resultados",
     "one_search_result"         => "1 resultado encontrado",
-    "multiple_search_results"   => "\${count} resultados encontrados", // ${count} is a JS variable and should not be changed.
+    "multiple_search_results"   => "${count} resultados encontrados", // ${count} is a JS variable and should not be changed.
     "advanced"                  => "Avanzado",
     "table"                     => "Tabla",
     "cell"                      => "Celda",
@@ -762,4 +757,91 @@ return array(
     "solid"                     => "Sólido",
     "dashed"                    => "Discontinuo",
     "dotted"                    => "Punteado",
+
+    /*
+     * 6.0.0
+     */
+    "bot"                       => "Bot",
+    "start_tls"                 => "Start TLS",
+    "shortcut_disabled"         => "Disabled",
+    "shortcut_edit"             => "Edit shortcut",
+    "shortcut_reset"            => "Reset to default",
+    "shortcut_press_key"        => "Press a key combination...",
+    "shortcut_already_in_use"   => "This shortcut is already in use by ':name'.",
+    "shortcut_invalid"          => "Invalid shortcut. Please try again.",
+    "shortcut_editor"           => "Text Editor",
+    "shortcut_editor_bold"      => "Bold",
+    "shortcut_editor_italic"    => "Italic",
+    "shortcut_editor_underline" => "Underline",
+    "shortcut_editor_link"      => "Insert link",
+    "shortcut_editor_strikethrough" => "Strikethrough",
+    "shortcut_editor_codesample" => "Insert code sample",
+    "shortcut_editor_blockquote" => "Insert block quote",
+    "shortcut_editor_numlist"   => "Insert numbered list",
+    "shortcut_editor_bullist"   => "Insert bullet list",
+    "shortcut_editor_outdent"   => "Decrease indent",
+    "shortcut_editor_indent"    => "Increase indent",
+    "shortcut_editor_removeformat" => "Remove formatting",
+    "shortcut_editor_canned_responses" => "Insert canned response",
+    "shortcut_editor_self_service" => "Insert self-service link",
+    "shortcut_editor_submit"    => "Submit form",
+    "shortcut_editor_superscript" => "Superscript",
+    "shortcut_editor_subscript" => "Subscript",
+    "shortcut_editor_paragraph" => "Paragraph",
+    "shortcut_editor_heading1"  => "Heading 1",
+    "shortcut_editor_heading2"  => "Heading 2",
+    "shortcut_editor_heading3"  => "Heading 3",
+    "shortcut_editor_heading4"  => "Heading 4",
+    "shortcut_editor_heading5"  => "Heading 5",
+    "shortcut_editor_heading6"  => "Heading 6",
+    // Activity Log Groups
+    "ticket_events"             => "Ticket Events",
+    "user_events"               => "User Events",
+    "organisation_events"       => "Organisation Events",
+    "email_events"              => "Email Events",
+    "system_events"             => "System Events",
+    "selfservice_events"        => "Self-Service Events",
+    "ip_events"                 => "IP Events",
+    "login_events"              => "Login Events",
+    "export_events"             => "Export Events",
+    "addon_events"              => "Addon Events",
+    "private_conversation_events" => "Private Conversation Events",
+    "import_events"             => "Import Events",
+    "background_job_events"     => "Background Job Events",
+    "user_profile"              => "Profile updates",
+    "user_organisation"         => "Organisation updates",
+    "user_groups"               => "Group membership changes",
+    "user_password"             => "Password changes",
+    "user_merge"                => "Merge events",
+    "email_mass"                => "Mass email events",
+    "email_sent"                => "Sent emails",
+    "misc_events"               => "Miscellaneous events",
+    "system_tasks"              => "Scheduled task events",
+    "system_jobs"               => "Background jobs events",
+    "system_items"              => "Created, updated & deleted records",
+    "selfservice_articles"      => "Article events",
+    "selfservice_comments"      => "Comment events",
+    "selfservice_feedback"      => "Feedback events",
+    "email_throttled"           => "Demasiados correos entrantes del usuario. El límite son :max_requests correos cada :decay_time minutos.",
+    "debug_mode_desc"           => "Habilita el modo de depuración para mostrar errores. Utilízalo solo para depuración o instruído por asistencia. De otra manera, los errores y otros mensajes de registro útiles se almacenan en los registros de la aplicación, y se pueden descargar en Utilidades -> Registros -> Archivos de registro.",
+    "debug_mode_warning"        => "El modo de depuración sólo debe utilizarse temporalmente.",
+    "debug_mode_error"          => "App debug should not be enabled in production and will display errors to users, set APP_DEBUG to false. Use the debug mode option in the general settings instead.",
+
+    /*
+     * 6.0.2
+     */
+    "simpleauth_key_desc"       => "La clave para nuestra opción de inicio de sesión, mínimo 16 caracteres.",
+
+    /*
+     * 6.1.0
+     */
+    "update_and_activate"       => "Update & Activate",
+    "purge_in_background"       => "The records will be purged in the background. This may take some time...",
+    "shortcut_minimise_form"    => "Minimise the active message form",
+    "token_generate_after_create" => "The token will be generated when the API token is saved.",
+    "change_token"              => "Changing the token will break any integrations using the previous token.",
+    "simpleauth_key_generate"   => "Generate Key",
+    "change_simpleauth_key"     => "Changing the key will break any single sign on integrations using the previous key.",
+    "view_matched_rule"         => "View matched rule",
+
 );

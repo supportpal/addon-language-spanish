@@ -83,9 +83,6 @@ return array(
     "help_php_extensions"       => "Las extensiones PHP pueden ser diferentes dependiendo de tu servidor, tu host y otras variables del sistema. Para asistencia al instalar las extensiones que faltan, por favor, contacta con tu proveedor de host o el administrador de servidor.",
     "help_php_settings"         => "Para asistencia adicional, por favor, lee <a target=\"_blank\" href=\"https://docs.supportpal.com/current/System+Requirements#PHPSettings\">Ayuda para los ajustes de PHP</a>.",
     "disabled_functions"        => "Funciones deshabilitadas",
-    "help_mysql_version"        => "Para asistencia al instalar una versión nueva de MySQL, por favor, contacta con tu proveedor de host o el administrador de servidor.",
-    "mysql_version"             => "Versión MySQL",
-    "mysql_version_not_found"   => "No está disponible, versión MySQL encontrada: :version",
 
     /*
      * 2.1.0
@@ -110,7 +107,6 @@ return array(
      * 2.4.0
      */
     "mysql_server_version"      => "Versión del servidor >= :min",
-    "mysql_server_version_desc" => "MySQL :min o superior se requiere para ejecutar SupportPal. Hemos encontrado: ':version'.",
 
     "upgrade_step"              => "Paso :num de :total: ",
     "accept_eula"               => "Aceptar CLUF",
@@ -195,7 +191,6 @@ return array(
      * 5.0.0
      */
     "mysql_client_version"      => "Versión del cliente >= :min",
-    "mysql_client_version_desc" => "Se requiere la versión :min o superior del cliente MySQL para ejecutar SupportPal. Versión encontrada: ':version'.",
     "post_install"              => "Para que el sistema funcione correctamente, debe configurarse un cron job. Lee nuestra <a href='https://docs.supportpal.com/current/Administration'>documentación</a> para más información sobre esta y otras acciones recomendadas para mejorar la funcionalidad y la seguridad.",
     "help_allowed_methods"      => "Tu servidor web debe permitir todos los métodos HTTP indicados a continuación. Consulta nuestra <a href='https://docs.supportpal.com/current/System+Requirements#WebServer' target='_blank'>nueva documentación de instalación</a> para obtener más informacion.",
 
@@ -203,5 +198,22 @@ return array(
      * 5.3.0
      */
     "check_file_permissions"    => "Comprobando permisos de archivo...",
+
+    /*
+     * 6.0.0
+     */
+    "mysql_server_version_desc" => "MySQL :min o superior se requiere para ejecutar SupportPal. Hemos encontrado: ':version'.",
+    "help_mysql_version"        => "Para asistencia al instalar una versión nueva de MySQL, por favor, contacta con tu proveedor de host o el administrador de servidor.",
+    "mysql_version"             => "Versión MySQL",
+    "mysql_version_not_found"   => "No está disponible, versión MySQL encontrada: :version",
+    "mysql_client_version_desc" => "Se requiere la versión :min o superior del cliente MySQL para ejecutar SupportPal. Versión encontrada: ':version'.",
+    "update_failed"             => "App update failed.",
+    "attempting_to_restore"     => "Attempting to restore from backup...",
+
+    /*
+     * 6.1.0
+     */
+    "freetype_support"          => "FreeType Support",
+    "upgrade_in_progress"       => "A system upgrade is in progress. The help desk will be unavailable until an administrator completes the upgrade. Please try again later.",
 
 );

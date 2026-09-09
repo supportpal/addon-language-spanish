@@ -291,7 +291,6 @@ return array(
     /*
      * 2.4.0
      */
-    "show_count_more"           => "Mostrar :count más...",
     "manual"                    => "Manual",
     "automatic"                 => "Automático",
     "hook"                      => "Hook",
@@ -439,5 +438,23 @@ return array(
      */
     "bot"                       => "Bot|Bots",
     "allow_all"                 => "Permitir todos",
+
+    /*
+     * 6.0.0
+     */
+    "maximise"                  => "Maximise",
+    "minimise"                  => "Minimise",
+    "resize"                    => "Resize",
+    "activity"                  => "Activity",
+    "server"                    => "Server|Servers",
+
+    /*
+     * 6.1.0
+     */
+    "copy"                      => "Copy",
+    "copied"                    => "Copied",
+    "is_one_of"                 => "Is one of",
+    "is_not_one_of"             => "Is not one of",
+    "copy_now_shown_once"       => "Make sure to copy it now, you won't be able to see it again.",
 
 );
