@@ -34,14 +34,14 @@ Se te notificará con cualquier respuesta o acción que se lleve a cabo en este 
                     </td>
                     <td>
                         <div style="line-height:24px;font-size:130%;">
-                            {% if message.by == 0 %}
+                            {% if message.isByOperator() %}
                                 <strong style="color:#c0392b;">{{ message.user.formatted_name }}</strong>
                             {% else %}
                                 <strong style="color:#27ae60;">{{ message.user.formatted_name }}</strong>
                             {% endif %}
                         </div>
                         <div style="color:#999;line-height:24px;">
-                            {% if message.by == 0 %}
+                            {% if message.isByOperator() %}
                                 Personal
                             {% else %}
                                 Usuario
