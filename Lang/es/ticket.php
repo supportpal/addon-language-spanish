@@ -131,7 +131,6 @@ return array(
     "feedback_expired"          => "El ticket lleva un tiempo resuelto y, por desgracia, ya no se puede valorar.",
     "feedback_questions"        => "Si tienes unos minutos, por favor, ¿te importaría contestar a las siguientes preguntas para ayudarnos a mejorar la asistencia que ofrecemos?.",
     "feedback_for_ticket"       => "Valoración para el Ticket #:number",
-    "feedback_rating_desc"      => "La asistencia recibida en este ticket se ha valorado como <strong>:rating</strong> por el usuario.",
 
     // Custom fields
     "customfield"               => "Campo personalizado del ticket|Campos personalizados del ticket",
@@ -158,7 +157,6 @@ return array(
     "allowed_files"             => "Tipos de archivos adjuntos permitidos",
 
     // Drafts
-    "draft_saved"               => "Borrador guardado a las :time",
     "save_draft"                => "Guardar borrador",
     "discard_draft"             => "Descartar borrador",
 
@@ -202,7 +200,6 @@ return array(
     "reply_options"             => "Opciones de respuesta",
     "send_email_to_users"       => "Enviar correo a el/los usuario(s)",
     "send_email_to_operators"   => "Enviar correo a el/los operador(es)",
-    "back_to_grid"              => "Volver a la cuadrícula de los tickets",
     "take"                      => "Tomar",
     "take_ownership"            => "Tomar la propiedad",
     "pause_duetime"             => "Pausar la hora de entrega",
@@ -264,7 +261,6 @@ return array(
     "no_departments_found"      => "No se han encontrado departamentos. Haz click <a href=':route'>aquí</a> para crear uno.",
     "no_operators_found"        => "No se han encontrado operadores. Haz click <a href=':route'>aquí</a> para crear uno.",
     "change_priority"           => "Cambiar prioridad",
-    "add_tag"                   => "Añadir etiqueta",
 
     "unlock"                    => "Desbloquear",
     "merged"                    => "Combinados",
@@ -279,7 +275,6 @@ return array(
 
     "pause_duetime_desc"        => "Si hay un plan ANS activo en este ticket, pausa el tiempo que queda para la entrega hasta después de la fecha del seguimiento. La hora de entrega solo se restablecerá una vez que una respuesta o una nota se hayan añadido al ticket (incluyendo del seguimiento).",
 
-    "add_cc"                    => "Añadir CC",
     "reply_above_line"          => "Por favor, responde por encima de esta línea",
 
     "email_settings"            => "Ajustes de correo",
@@ -305,14 +300,10 @@ return array(
     "default_reply_options_desc" => "Selecciona las opciones de respuesta por defecto que se establezcan cuando se abra o se responda a un ticket. La opción ':reply_option' se basará en el ticket en los ajustes de departamento ':department_option'.",
     "associate_response_tag"    => "Asociar respuesta predefinida con una etiqueta...",
     "canned_response_tags_desc" => "Añadir etiquetas que puedan ayudar a encontrar una respuesta predefinida cuando se conteste a un ticket.",
-    "append_ip_address"         => "Anexar dirección IP",
-    "append_ip_address_desc"    => "Anexar la dirección IP de los usuarios a sus mensajes cuando estén abriendo y respondiendo a tickets del frontend.",
     "unassign_operator"         => "Desasignar operador",
-    "remove_tag"                => "Eliminar etiqueta",
     "message_clipped"           => "[Mensaje acortado]",
     "view_entire_message"       => "Ver todo el mensaje",
     "no_custom_fields"          => "No se han encontrado campos personalizados. Haz click <a href=':route'>aquí</a> para crear uno.",
-    "follow_up_active"          => "Un <a class='view-followup' style='text-decoration: underline;'>seguimiento</a> está actualmente activo en este ticket y se ejecutará <strong>:time</strong>.",
     "disable_user_email_replies" => "Deshabilitar respuestas de correo del usuario",
 
     /*
@@ -418,7 +409,6 @@ return array(
     "forwarded_to"              => "Reenviado a",
     "new_operator_reply"        => "Nueva respuesta del operador",
     "new_user_reply"            => "Nueva respuesta del usuario",
-    "add_bcc"                   => "Añadir CCO",
     "at_least_one_recipient"    => "Por favor, indica al menos un destinatario.",
     "forwarded_message"         => "---------- Mensaje reenviado ----------",
 
@@ -478,7 +468,6 @@ return array(
      * 2.6.0
      */
     "follow_ups"                => "Seguimientos",
-    "follow_up_multiple_active" => "Múltiples <a class='view-followup' style='text-decoration: underline;'>seguimientos</a> se encuentran actualmente activos en este ticket, y el próximo programado se ejecutará <strong>:time</strong>.",
     "follow_up_no_actions"      => "El seguimiento no tiene ninguna acción programada. Por favor, confirma que quieres continuar.",
     "status_after_running"      => "Estado después de la ejecución",
     "older_messages"            => ":count mensajes antiguos",
@@ -492,11 +481,6 @@ return array(
     "im_not_sure"               => "No estoy seguro/a",
     "auto_reply_detected"       => "Auto-respuesta detectada - No se enviará ninguna notificación al usuario/los usuarios.",
     "cc_desc"                   => "Puedes incluir a otras personas en CC en este ticket introduciendo las direcciones de correo electrónico aquí.",
-
-    /*
-     * 3.2.0
-     */
-    "drafting_message"          => "<strong>:name</strong> estaba redactando un mensaje",
 
     /*
      * 3.3.0
@@ -530,7 +514,6 @@ return array(
      * 4.1.0
      */
     "ticket_format_desc"        => "Puede contener caracteres alfanuméricos y caracteres especiales <code>-_.+!*,</code><br />Las siguientes variables también pueden utilizarse: %S para un número secuencial | %N para un número aleatorio | %L para una letra aleatoria<br />Utiliza {number} para repetir <strong>solo</strong> después de %N o %L, Por ejemplo, %N{4} equivale a 4 números aleatorios, %L{3} es igual a 3 letras aleatorias.<br />Los siguientes parámetros <a href='http://php.net/manual/en/function.date.php' target='_blank'>PHP Date</a> prefijados con % Y,y,m,d,z,j,g,G,h,H,i,s",
-    "append_ip_address_api_desc" => "Añade la dirección IP del usuario al final de sus mensajes de ticket (requiere que se proporcionen los datos user_ip_address).",
     "check_spam"                => "Comprobar las reglas de spam",
     "check_spam_api_desc"       => "Bloquea los mensajes que coincidan con las reglas de spam.",
     "captcha_desc"              => "Cuándo debe mostrarse el captcha a los usuarios que abren nuevos tickets o utilizan la función de seguimiento de tickets.",
@@ -571,9 +554,7 @@ return array(
      */
     "rate_limiting"             => "Límite de tasa",
     "max_requests"              => "Máximo de solicitudes",
-    "max_requests_desc"         => "Establece el número máximo de solicitudes antes de que se limite a un usuario.",
     "decay_time"                => "Tiempo de restablecimiento",
-    "decay_time_desc"           => "Número de minutos hasta que se restablezcan los intentos disponibles.",
     "exclude_addresses"         => "Excluir direcciones",
     "exclude_addresses_desc"    => "Una lista de direcciones de correo electrónico que están excluidas de los límites de tasa.",
     "enable_throttling"         => "Activar limitación",
@@ -613,5 +594,38 @@ return array(
     "mention_notification_desc" => "Te notifica cuando se te menciona en un ticket.",
     "mark_resolved_and_post_reply" => "arcar como resuelto y publicar respuesta",
     "allowed_files_desc"        => "Una lista de extensiones de archivo, separados por la barra vertical | que se permiten como archivos adjuntos. Por ejemplo: txt|png|jpg. Para permitir todos los archivos adjuntos, introduce: ?.*",
+
+    /*
+     * 6.0.0
+     */
+    "back_to_grid"              => "Volver a la cuadrícula de los tickets",
+    "stay_on_ticket"            => "Stay on Ticket",
+    "draft_saved"               => "Borrador guardado a las :time",
+    "drafting_message"          => "<strong>:name</strong> estaba redactando un mensaje",
+    "feedback_notification"     => "Feedback Posted",
+    "feedback_notification_desc" => "Notifies you when feedback is posted on a ticket.",
+    "notify_feedback"           => "Feedback Notifications",
+    "notify_feedback_desc"      => "Specify which feedback responses from this form should trigger notifications to operators.",
+    "notify_all_feedback"       => "Notify on all feedback",
+    "notify_neutral_bad_feedback" => "Notify on neutral & bad feedback only",
+    "notify_bad_feedback"       => "Notify on bad feedback only",
+    "timeline"                  => "Timeline",
+    "filter_timeline"           => "Filter Timeline",
+    "timeline_replies"          => "Replies",
+    "timeline_forwards"         => "Forwards",
+    "timeline_customfields"     => "Custom field changes",
+    "timeline_sla"              => "SLA & due time changes",
+    "timeline_messages"         => "Message & note changes",
+    "timeline_userinfo"         => "User information & changes",
+    "timeline_assignment"       => "Assignment changes",
+    "timeline_state"            => "State changes",
+    "timeline_merging"          => "Merging, linking & splitting",
+    "max_requests_desc"         => "Establece el número máximo de solicitudes antes de que se limite a un usuario.",
+    "decay_time_desc"           => "Número de minutos hasta que se restablezcan los intentos disponibles.",
+
+    /*
+     * 6.1.0
+     */
+    "change_user"               => "Change User",
 
 );
