@@ -52,7 +52,6 @@ return array(
 
     "return_to"             => "Volver a :page.",
 
-    "session_expired"       => "Tu sesión ha expirado. Por favor, vuelve a iniciar sesión.",
     "session_refresh"       => "Tu sesión ha expirado. Por favor, actualiza la página e inténtalo de nuevo.",
 
     "general_error"         => "Ha ocurrido un error. Por favor, inténtalo de nuevo.",
@@ -73,8 +72,6 @@ return array(
     "forbidden"             => "Prohibido",
 
     "not_logged_exception"  => "<strong>¡Ups! Algo no ha ido bien.</strong><br />Por favor, notifícaselo al administrador del sistema si el error persiste.",
-
-    "too_many_ticket_reqs"  => "Demasiadas solicitudes de tickets hechas por :email. El límite son :max en :decay minutos.",
 
     "not_operator"          => "Algo no ha ido bien. El operador seleccionado no es válido. Por favor, asegúrate de que pertenece a un grupo de operadores y de que el grupo tiene un papel asociado.",
 
@@ -171,6 +168,11 @@ return array(
     /*
      * 5.4.1
      */
-    "throttle_error"        => "Demasiados intentos. Inténtalo de nuevo :in_time." // :in_time becomes in 1 minute, etc
+    "throttle_error"        => "Demasiados intentos. Inténtalo de nuevo :in_time.", // :in_time becomes in 1 minute, etc
+
+    /*
+     * 6.0.0
+     */
+    "session_expired"       => "Tu sesión ha expirado. Por favor, vuelve a iniciar sesión.",
 
 );
