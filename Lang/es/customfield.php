@@ -58,9 +58,4 @@ return array(
      * 2.3.1
      */
     "required_desc"             => "Si el campo personalizado se debe rellenar. Para la casilla, la lista de comprobación o los tipos de múltiples opciones, se requerirá que el usuario seleccione al menos una opción.",
-
-    /*
-     * 3.3.0
-     */
-    "encrypted_value"           => "** ENCRIPTADO **",
 );
